@@ -1,0 +1,73 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: rgba(7, 10, 8, 0.72);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border);
+}
+
+.inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 14px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  font-weight: 800;
+  text-decoration: none;
+  color: var(--text);
+}
+
+.brand::before {
+  content: "$ ";
+  color: var(--accent);
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav {
+  display: flex;
+  gap: 10px;
+}
+
+.link,
+.active {
+  text-decoration: none;
+  padding: 8px 10px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+}
+
+.link {
+  color: var(--muted);
+  background: color-mix(in oklab, var(--card) 65%, transparent);
+}
+
+.active {
+  color: var(--text);
+  background: linear-gradient(180deg, rgba(45, 255, 122, 0.10), rgba(45, 255, 122, 0.04));
+  box-shadow: 0 0 0 2px rgba(45, 255, 122, 0.08) inset;
+}
+
+.themeBtn {
+  border: 1px solid var(--border);
+  background: linear-gradient(180deg, rgba(45, 255, 122, 0.10), rgba(45, 255, 122, 0.03));
+  color: var(--text);
+  border-radius: 10px;
+  padding: 8px 10px;
+  cursor: pointer;
+  line-height: 1;
+  box-shadow: 0 10px 30px var(--shadow);
+}
+
+.themeBtn:hover {
+  box-shadow: 0 0 0 3px rgba(45, 255, 122, 0.12), 0 10px 30px var(--shadow);
+}

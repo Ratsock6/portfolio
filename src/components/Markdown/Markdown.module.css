@@ -1,0 +1,46 @@
+.md {
+  color: var(--text);
+}
+
+.md p,
+.md ul,
+.md ol {
+  color: var(--muted);
+}
+
+.md h2, .md h3 {
+  margin: 18px 0 10px 0;
+}
+
+.md h2::before {
+  content: "## ";
+  color: var(--accent);
+}
+
+.md h3::before {
+  content: "### ";
+  color: var(--accent2);
+}
+
+.md pre {
+  border: 1px solid var(--border);
+  background: rgba(7, 17, 11, 0.75);
+  padding: 12px;
+  border-radius: 14px;
+  overflow: auto;
+  box-shadow: 0 12px 40px var(--shadow);
+}
+
+.md code {
+  font-family: inherit;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  margin: 12px 0;
+  box-shadow: 0 12px 40px var(--shadow);
+}

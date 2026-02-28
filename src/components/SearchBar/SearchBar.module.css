@@ -1,0 +1,32 @@
+.wrap {
+  width: 100%;
+  position: relative;
+}
+
+.wrap::before {
+  content: ">";
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--accent);
+}
+
+.input {
+  width: 100%;
+  padding: 12px 12px 12px 28px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: linear-gradient(180deg, rgba(45, 255, 122, 0.06), rgba(7, 17, 11, 0.0));
+  color: var(--text);
+  outline: none;
+}
+
+.input::placeholder {
+  color: color-mix(in oklab, var(--muted) 70%, transparent);
+}
+
+.input:focus {
+  box-shadow: 0 0 0 3px rgba(45, 255, 122, 0.15);
+  border-color: rgba(45, 255, 122, 0.55);
+}

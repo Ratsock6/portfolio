@@ -1,0 +1,67 @@
+:root {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+}
+
+html[data-theme="dark"] {
+  --bg: #070a08;
+  --text: #d7ffe1;
+  --muted: #8bd19f;
+  --card: #07110b;
+  --border: #0e3b22;
+
+  --accent: #2dff7a;
+  --accent2: #00d4ff;
+  --danger: #ff4d4d;
+
+  --shadow: rgba(45, 255, 122, 0.12);
+  --glow: rgba(45, 255, 122, 0.25);
+}
+
+html[data-theme="light"] {
+  --bg: #f6fff9;
+  --text: #062112;
+  --muted: #1d6b42;
+  --card: #ffffff;
+  --border: #bfe8cf;
+
+  --accent: #0aa74a;
+  --accent2: #0077ff;
+  --danger: #cc0000;
+
+  --shadow: rgba(10, 167, 74, 0.12);
+  --glow: rgba(10, 167, 74, 0.18);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: var(--text);
+  background: radial-gradient(1200px 800px at 20% 10%, rgba(45, 255, 122, 0.08), transparent 55%),
+              radial-gradient(1000px 700px at 80% 20%, rgba(0, 212, 255, 0.06), transparent 50%),
+              var(--bg);
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+a {
+  color: inherit;
+}
+
+h1 {
+  margin: 0 0 12px 0;
+  letter-spacing: -0.02em;
+}
+
+p {
+  margin: 0 0 12px 0;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
