@@ -27,11 +27,7 @@ export default function Timeline({ items }: Props) {
               <span className={styles.kind}>{it.kind}</span>
             </div>
 
-            <img
-          src={it.logo ?? "/logos/default.png"}
-          alt="Logo"
-          className={styles.logo}
-        />
+
 
             <h3 className={styles.title}>{it.title}</h3>
 
@@ -43,13 +39,18 @@ export default function Timeline({ items }: Props) {
               </p>
             )}
 
+            
+
             {it.bullets && it.bullets.length > 0 && (
               <ul className={styles.bullets}>
                 {it.bullets.map((b) => (
                   <li key={b}>{b}</li>
                 ))}
               </ul>
+
+              
             )}
+
 
             {it.tags && it.tags.length > 0 && (
               <div className={styles.tags} aria-label="Tags">
@@ -61,6 +62,12 @@ export default function Timeline({ items }: Props) {
 
               </div>
             )}
+
+            <img
+          src={it.logo ?? "/logos/default.png"}
+          alt="Logo"
+          className={styles.logo}
+        />
           </div>
         </article>
       ))}

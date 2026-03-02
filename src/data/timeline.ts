@@ -19,7 +19,7 @@ export const timeline: TimelineItem[] = [
     kind: "Projet",
     bullets: ["Premiers projets perso", "Découverte de la logique et de l'architecture"],
     tags: ["Java"],
-    logo: "/logos/default.png"
+    logo: "/logos/spigot.png"
   },
   {
     id: "sti2d",
@@ -29,7 +29,7 @@ export const timeline: TimelineItem[] = [
     kind: "Études",
     bullets: ["Programmation, systèmes, bases web", "Projets techniques en groupe"],
     tags: ["Python", "Web", "Systèmes", "C", "Arduino"],
-    logo: "/logos/default.png"
+    logo: "/logos/spigot.png"
   },
   {
     id: "industrial-6m",
@@ -39,7 +39,7 @@ export const timeline: TimelineItem[] = [
     kind: "Travail",
     bullets: ["Gestion des imprimantes du site", ""],
     tags: ["Industrie", "Réseaux"],
-    logo: "/logos/default.png"
+    logo: "/logos/spigot.png"
   },
   {
     id: "42",
@@ -48,7 +48,7 @@ export const timeline: TimelineItem[] = [
     kind: "Études",
     bullets: ["Projets en C / algo / système", "Montée en autonomie et rigueur"],
     tags: ["C", "Linux", "Git", "C++", "Docker", "..."],
-    logo: "/logos/default.png"
+    logo: "/logos/spigot.png"
   },
   {
     id: "paragon-studio",
@@ -57,7 +57,7 @@ export const timeline: TimelineItem[] = [
     kind: "Projet",
     bullets: ["Création du mini ESN pour des plugins minecraft orienté UHC"],
     tags: ["Java", "Spigot"],
-    logo: "/logos/default.png"
+    logo: "/logos/spigot.png"
   },
   {
     id: "Unis Cité",
@@ -66,7 +66,7 @@ export const timeline: TimelineItem[] = [
     kind: "Travail",
     bullets: ["Service civique", "Apprentisage de la programation pour les enfants"],
     tags: ["Scratch", "Arduino", "Logique"],
-    logo: "/logos/default.png"
+    logo: "/logos/spigot.png"
   },
   {
     id: "supervision",
@@ -75,6 +75,6 @@ export const timeline: TimelineItem[] = [
     kind: "Travail",
     bullets: ["Gestion de groupe", "Création de supports et organisation"],
     tags: ["Pédagogie", "Organisation"],
-    logo: "/logos/default.png"
+    logo: "/logos/spigot.png"
   },
 ];
