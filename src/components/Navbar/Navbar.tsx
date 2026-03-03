@@ -17,12 +17,12 @@ export default function Navbar({ theme, onToggleTheme }: Props) {
         <div className={styles.right}>
           <nav className={styles.nav} aria-label="Navigation principale">
             <NavLink
-              to="/about"
+              to="/presentation"
               className={({ isActive }) =>
                 isActive ? styles.active : styles.link
               }
             >
-              À propos
+              Presentation
             </NavLink>
             <NavLink
               to="/projects"
@@ -39,6 +39,15 @@ export default function Navbar({ theme, onToggleTheme }: Props) {
               }
             >
               Dev perso
+            </NavLink>
+
+            <NavLink
+              to="/about"
+              className={({ isActive }) =>
+                isActive ? styles.active : styles.link
+              }
+            >
+              À propos
             </NavLink>
           </nav>
 

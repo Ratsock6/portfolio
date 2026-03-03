@@ -21,54 +21,45 @@ export default function Timeline({ items }: Props) {
             <div className={styles.line} aria-hidden="true" />
           </div>
 
-          <div className={styles.card}>
-            <div className={styles.meta}>
-              <span className={styles.period}>{formatPeriod(it.start, it.end)}</span>
-              <span className={styles.kind}>{it.kind}</span>
-            </div>
+              <div className={styles.card}>
+              <img
+                src={it.logo ?? "/logos/default.png"}
+                alt="Logo"
+                className={styles.logo}
+              />
+              <div className={styles.meta}>
+                <span className={styles.period}>{formatPeriod(it.start, it.end)}</span>
+                <span className={styles.kind}>{it.kind}</span>
+              </div>
 
+              <h3 className={styles.title}>{it.title}</h3>
 
-
-            <h3 className={styles.title}>{it.title}</h3>
-
-            {(it.subtitle || it.location) && (
-              <p className={styles.subtitle}>
+              {(it.subtitle || it.location) && (
+                <p className={styles.subtitle}>
                 {it.subtitle ? it.subtitle : null}
                 {it.subtitle && it.location ? " • " : null}
                 {it.location ? it.location : null}
-              </p>
-            )}
+                </p>
+              )}
 
-            
-
-            {it.bullets && it.bullets.length > 0 && (
-              <ul className={styles.bullets}>
+              {it.bullets && it.bullets.length > 0 && (
+                <ul className={styles.bullets}>
                 {it.bullets.map((b) => (
-                  <li key={b}>{b}</li>
+                <li key={b}>{b}</li>
                 ))}
-              </ul>
+                </ul>
+              )}
 
-              
-            )}
-
-
-            {it.tags && it.tags.length > 0 && (
-              <div className={styles.tags} aria-label="Tags">
+              {it.tags && it.tags.length > 0 && (
+                <div className={styles.tags} aria-label="Tags">
                 {it.tags.map((t) => (
-                  <span key={t} className={styles.tag}>
-                    {t}
-                  </span>
+                <span key={t} className={styles.tag}>
+                {t}
+                </span>
                 ))}
-
+                </div>
+              )}
               </div>
-            )}
-
-            <img
-          src={it.logo ?? "/logos/default.png"}
-          alt="Logo"
-          className={styles.logo}
-        />
-          </div>
         </article>
       ))}
     </div>

@@ -1,7 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import RootLayout from "./layout/RootLayout";
 import Home from "../pages/Home";
-import About from "../pages/About";
 import Projects from "../pages/Projects";
 import DevProjects from "../pages/DevProjects";
 import NotFound from "../pages/NotFound";
@@ -13,6 +12,8 @@ import F1 from "../pages/interests/F1";
 import TableTennis from "../pages/interests/TableTennis";
 import Gaming from "../pages/interests/Gaming";
 import Travel from "../pages/interests/Travel";
+import Presentation from "../pages/Presenation";
+import About from "../pages/About";
 
 export const router = createBrowserRouter([
   {
@@ -21,7 +22,7 @@ export const router = createBrowserRouter([
     errorElement: <RouteError />,
     children: [
       { index: true, element: <Home /> },
-      { path: "about", element: <About /> },
+      { path: "presentation", element: <Presentation /> },
       { path: "projects", element: <Projects /> },
       { path: "projects/:slug", element: <ProjectDetail /> },
       { path: "dev-projects", element: <DevProjects /> },
@@ -31,6 +32,7 @@ export const router = createBrowserRouter([
       { path: "interests/table-tennis", element: <TableTennis /> },
       { path: "interests/gaming", element: <Gaming /> },
       { path: "interests/travel", element: <Travel /> },
+      { path: "about", element: <About /> },
       { path: "*", element: <NotFound /> },
     ],
   },

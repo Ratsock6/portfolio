@@ -1,20 +1,54 @@
 .wrapper {
   display: grid;
   gap: 32px;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
-.hero {
-  border: 1px solid var(--border);
-  background: linear-gradient(180deg, rgba(45, 255, 122, 0.06), transparent);
-  padding: 20px;
-  border-radius: 16px;
-}
+/* ============================= */
+/* BLOCS PRINCIPAUX */
+/* ============================= */
 
 .block {
+  position: relative;
   border: 1px solid var(--border);
-  background: rgba(7, 17, 11, 0.45);
-  padding: 20px;
-  border-radius: 16px;
+  background: linear-gradient(
+    180deg,
+    rgba(45, 255, 122, 0.05),
+    rgba(7, 17, 11, 0.35)
+  );
+  padding: 24px;
+  border-radius: 18px;
+  box-shadow: 0 12px 40px var(--shadow);
+  overflow: hidden;
+}
+
+/* petit effet subtil en haut */
+.block::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    var(--accent),
+    transparent
+  );
+  opacity: 0.6;
+}
+
+/* ============================= */
+/* TITRES */
+/* ============================= */
+
+.block h1 {
+  margin: 0 0 16px 0;
+}
+
+.block h2 {
+  margin: 0 0 14px 0;
 }
 
 .block h2::before {
@@ -22,29 +56,62 @@
   color: var(--accent);
 }
 
-.grid {
-  display: grid;
-  gap: 18px;
-}
-
-@media (min-width: 900px) {
-  .grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-ul {
+.block p {
   color: var(--muted);
-  line-height: 1.8;
+  line-height: 1.7;
 }
 
-a {
+/* ============================= */
+/* LISTES */
+/* ============================= */
+
+.block ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.block li {
+  position: relative;
+  padding-left: 16px;
+  color: var(--muted);
+}
+
+.block li::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+}
+
+/* ============================= */
+/* LIENS */
+/* ============================= */
+
+.block a {
   color: var(--text);
   text-decoration: none;
-  border-bottom: 1px dashed rgba(45, 255, 122, 0.55);
+  border-bottom: 1px dashed rgba(45, 255, 122, 0.5);
+  transition: 0.2s ease;
 }
 
-a:hover {
+.block a:hover {
   color: var(--accent);
   border-bottom-color: var(--accent);
+}
+
+/* ============================= */
+/* RESPONSIVE */
+/* ============================= */
+
+@media (max-width: 768px) {
+  .wrapper {
+    gap: 24px;
+  }
+
+  .block {
+    padding: 20px;
+  }
 }
