@@ -227,3 +227,13 @@
   color: rgba(255, 255, 255, 0.65);
   font-size: 12px;
 }
+
+.match {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.match:hover {
+  filter: brightness(1.06);
+}

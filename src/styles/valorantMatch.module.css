@@ -1,0 +1,134 @@
+.page {
+  display: grid;
+  gap: 14px;
+}
+
+.top {
+  display: grid;
+  gap: 10px;
+}
+
+.back {
+  text-decoration: none;
+  color: var(--muted);
+  border-bottom: 1px dashed rgba(255, 70, 85, 0.35);
+  width: fit-content;
+}
+
+.back:hover {
+  color: rgba(255, 70, 85, 0.95);
+  border-bottom-color: rgba(255, 70, 85, 0.65);
+}
+
+.header {
+  border: 1px solid rgba(255, 70, 85, 0.35);
+  background: rgba(255, 70, 85, 0.08);
+  border-radius: 18px;
+  padding: 16px;
+}
+
+.title {
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.sub {
+  margin-top: 6px;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 12px;
+}
+
+.metaGrid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+@media (min-width: 900px) {
+  .metaGrid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.metaCard {
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.03);
+  padding: 14px;
+}
+
+.metaLabel {
+  color: var(--muted);
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+
+.metaValue {
+  font-weight: 900;
+}
+
+.boards {
+  display: grid;
+  gap: 14px;
+}
+
+@media (min-width: 980px) {
+  .boards {
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+  }
+}
+
+.board {
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.03);
+  padding: 14px;
+}
+
+.boardTitle {
+  font-weight: 900;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  opacity: 0.9;
+}
+
+.table {
+  display: grid;
+  gap: 6px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr 44px 44px 44px 72px;
+  gap: 10px;
+  align-items: center;
+  padding: 10px 10px;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  background: rgba(0, 0, 0, 0.16);
+  font-size: 13px;
+}
+
+.head {
+  background: rgba(255, 70, 85, 0.10);
+  border-color: rgba(255, 70, 85, 0.25);
+  font-weight: 900;
+  font-size: 12px;
+}
+
+.player {
+  font-weight: 800;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.agent {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.me {
+  box-shadow: 0 0 0 2px rgba(255, 70, 85, 0.25) inset;
+  border-color: rgba(255, 70, 85, 0.45);
+}

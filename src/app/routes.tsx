@@ -16,6 +16,8 @@ import Presentation from "../pages/Presenation";
 import About from "../pages/About";
 import GameDetail from "../pages/interests/GameDetail";
 import ValorantPage from "../pages/interests/gaming/Valorant";
+import ValorantMatchDetail from "../pages/interests/gaming/ValorantMatchDetail";
+import SectionThemeLayout from "../layouts/SectionThemeLayout";
 
 export const router = createBrowserRouter([
   {
@@ -30,13 +32,28 @@ export const router = createBrowserRouter([
       { path: "dev-projects", element: <DevProjects /> },
       { path: "dev-projects/:slug", element: <DevProjectDetail /> },
       { path: "interests/chess", element: <Chess /> },
+      {
+        path: "interests/f1",
+        element: <SectionThemeLayout themeClass="theme-f1" />,
+        children: [
+          { index: true, element: <F1 /> },
+        ],
+      },
+      { path: "*", element: <NotFound /> },
       { path: "interests/f1", element: <F1 /> },
       { path: "interests/table-tennis", element: <TableTennis /> },
       { path: "interests/gaming", element: <Gaming /> },
       { path: "interests/travel", element: <Travel /> },
       { path: "about", element: <About /> },
       { path: "interests/gaming/:slug", element: <GameDetail /> },
-      { path: "interests/gaming/valorant", element: <ValorantPage /> },
+      {
+        path: "interests/gaming/valorant",
+        element: <SectionThemeLayout themeClass="theme-valorant" />,
+        children: [
+          { index: true, element: <ValorantPage /> },
+          { path: "match/:matchId", element: <ValorantMatchDetail /> },
+        ],
+      },
       { path: "*", element: <NotFound /> },
     ],
   },

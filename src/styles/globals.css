@@ -1,3 +1,8 @@
+#root {
+  position: relative;
+  z-index: 1;
+}
+
 :root {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
     "Liberation Mono", "Courier New", monospace;
@@ -65,3 +70,50 @@ p {
   line-height: 1.6;
 }
 
+
+/* IMPORTANT : le theme terminal doit rester en fallback.
+   Les thèmes de section surchargent le background du body. */
+
+html.theme-valorant body {
+  background:
+    radial-gradient(900px 500px at 10% 0%, rgba(255, 70, 85, 0.25), transparent 60%),
+    radial-gradient(900px 500px at 90% 20%, rgba(255, 70, 85, 0.12), transparent 55%),
+    linear-gradient(180deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.85)),
+    url("/gaming/valorant/background-valo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Optionnel: overlay + blur subtil au-dessus du background (fixe) */
+html.theme-valorant body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(180deg, rgba(255, 70, 85, 0.12), rgba(0, 0, 0, 0.55));
+  z-index: 0;
+}
+
+
+
+html.theme-f1 body {
+  background:
+    radial-gradient(900px 500px at 10% 0%, rgba(255, 70, 85, 0.25), transparent 60%),
+    radial-gradient(900px 500px at 90% 20%, rgba(255, 70, 85, 0.12), transparent 55%),
+    linear-gradient(180deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.85)),
+    url("/f1/background-f1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Optionnel: overlay + blur subtil au-dessus du background (fixe) */
+html.theme-f1 body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(180deg, rgba(255, 70, 85, 0.12), rgba(0, 0, 0, 0.55));
+  z-index: 0;
+}

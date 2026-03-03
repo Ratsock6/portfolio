@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useEffect, useMemo, useState } from "react";
 import styles from "../../../styles/valorant.module.css";
 
@@ -132,22 +133,23 @@ export default function ValorantPage() {
 
       <div className={styles.grid}>
         <div className={styles.card}>
-          <h2>10 derniers matchs</h2>
+          <h2>5 derniers matchs</h2>
 
           <div className={styles.matches}>
             {matchesUi.map((m) => (
-              <article
-                key={m.id}
-                className={`${styles.match} ${
-                  m.outcome === "WIN"
-                    ? styles.win
-                    : m.outcome === "LOSS"
-                    ? styles.loss
-                    : m.outcome === "DRAW"
-                    ? styles.draw
-                    : styles.unknown
-                }`}
-              >
+              <Link
+                  key={m.id}
+                  to={`/interests/gaming/valorant/match/${m.id}`}
+                  className={`${styles.match} ${
+                    m.outcome === "WIN"
+                      ? styles.win
+                      : m.outcome === "LOSS"
+                      ? styles.loss
+                      : m.outcome === "DRAW"
+                      ? styles.draw
+                      : styles.unknown
+                  }`}
+                >
                 <div className={styles.left}>
                   <span className={styles.outcome}>{m.outcome}</span>
                   <span className={styles.mode}>{m.mode}</span>
@@ -191,7 +193,7 @@ export default function ValorantPage() {
                     aria-hidden="true"
                   />
                 </div>
-              </article>
+              </ Link>
             ))}
 
             {matchesUi.length === 0 && (

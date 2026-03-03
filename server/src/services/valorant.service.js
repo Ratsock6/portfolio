@@ -98,3 +98,12 @@ export async function updateValorantCache() {
     isUpdating = false;
   }
 }
+
+
+export function getValorantMatchById(matchId) {
+  const m = (cache.matches ?? []).find((x) => {
+    const id = x?.metadata?.matchid ?? x?.matchId ?? null;
+    return String(id) === String(matchId);
+  });
+  return m ?? null;
+}
