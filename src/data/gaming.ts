@@ -13,6 +13,6 @@ export const games: GameItem[] = [
   { slug: "clash-of-clans", name: "Clash of Clans", since: 2015, logo: "/gaming/logos/clash-of-clans.png", accent: "#f6c243" },
   { slug: "overwatch", name: "Overwatch", since: 2018, logo: "/gaming/logos/overwatch.png", accent: "#f99e1a" },
   { slug: "minecraft", name: "Minecraft", since: 2013, logo: "/gaming/logos/minecraft.png", accent: "#45b649" },
-  { slug: "gta-v-rp", name: "GTA V RP", since: 2019, logo: "/gaming/logos/gta-v-rp.png", accent: "#00d4ff" },
+  { slug: "gta-v-rp", name: "GTA V RP", since: 2019, logo: "/gaming/logos/gta-v.png", accent: "#00d4ff" },
   { slug: "call-of-duty-black-ops-2", name: "Call of Duty: Black Ops 2", since: 2013, logo: "/gaming/logos/bo2.png", accent: "#a0a0a0" },
 ];
