@@ -14,6 +14,8 @@ import Gaming from "../pages/interests/Gaming";
 import Travel from "../pages/interests/Travel";
 import Presentation from "../pages/Presenation";
 import About from "../pages/About";
+import GameDetail from "../pages/interests/GameDetail";
+import ValorantPage from "../pages/interests/gaming/Valorant";
 
 export const router = createBrowserRouter([
   {
@@ -33,6 +35,8 @@ export const router = createBrowserRouter([
       { path: "interests/gaming", element: <Gaming /> },
       { path: "interests/travel", element: <Travel /> },
       { path: "about", element: <About /> },
+      { path: "interests/gaming/:slug", element: <GameDetail /> },
+      { path: "interests/gaming/valorant", element: <ValorantPage /> },
       { path: "*", element: <NotFound /> },
     ],
   },
