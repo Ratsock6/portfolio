@@ -26,4 +26,10 @@ export const config = {
     refreshMinutes: num("VAL_REFRESH_MINUTES", 10),
     henrikApiKey: process.env.HENRIK_API_KEY,
   },
+
+  clashRoyale: {
+    tag: process.env.CR_TAG,
+    apiKey: process.env.CR_API_KEY,
+    refreshMinutes: num("CR_REFRESH_MINUTES", 10),
+  },
 };
