@@ -85,7 +85,6 @@ html.theme-valorant body {
   background-attachment: fixed;
 }
 
-/* Optionnel: overlay + blur subtil au-dessus du background (fixe) */
 html.theme-valorant body::before {
   content: "";
   position: fixed;
@@ -108,7 +107,6 @@ html.theme-f1 body {
   background-attachment: fixed;
 }
 
-/* Optionnel: overlay + blur subtil au-dessus du background (fixe) */
 html.theme-f1 body::before {
   content: "";
   position: fixed;
@@ -116,4 +114,15 @@ html.theme-f1 body::before {
   pointer-events: none;
   background: linear-gradient(180deg, rgba(255, 70, 85, 0.12), rgba(0, 0, 0, 0.55));
   z-index: 0;
+}
+
+html.theme-clash body {
+  background:
+    radial-gradient(900px 500px at 10% 0%, rgba(60, 110, 255, 0.25), transparent 60%),
+    radial-gradient(900px 500px at 90% 20%, rgba(140, 80, 255, 0.12), transparent 55%),
+    linear-gradient(180deg, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.88)),
+    url("/gaming/cr/background-clash-royale.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }

@@ -1,5 +1,5 @@
-import { getClashRoyaleData } from "../services/clash-royale.service.js";
 import express from "express";
+import { getClashRoyaleData } from "../services/clash-royale.service.js";
 
 const router = express.Router();
 

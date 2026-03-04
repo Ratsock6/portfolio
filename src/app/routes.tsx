@@ -18,6 +18,8 @@ import GameDetail from "../pages/interests/GameDetail";
 import ValorantPage from "../pages/interests/gaming/Valorant";
 import ValorantMatchDetail from "../pages/interests/gaming/ValorantMatchDetail";
 import SectionThemeLayout from "../layouts/SectionThemeLayout";
+import ClashRoyale from "../pages/interests/gaming/ClashRoyale";
+
 
 export const router = createBrowserRouter([
   {
@@ -53,6 +55,11 @@ export const router = createBrowserRouter([
           { index: true, element: <ValorantPage /> },
           { path: "match/:matchId", element: <ValorantMatchDetail /> },
         ],
+      },
+      {
+        path: "interests/gaming/clash-royale",
+        element: <SectionThemeLayout themeClass="theme-clash" />,
+        children: [{ index: true, element: <ClashRoyale /> }],
       },
       { path: "*", element: <NotFound /> },
     ],
