@@ -4,6 +4,7 @@ import chessRoutes from "./routes/chess.routes.js";
 import f1Routes from "./routes/f1.routes.js";
 import valorantRoutes from "./routes/valorant.routes.js";
 import clashRoyaleRoutes from "./routes/clash-royale.routes.js";
+import dbdRoutes from "./routes/dbd.routes.js";
 
 export function createApp() {
   const app = express();
@@ -16,6 +17,7 @@ export function createApp() {
   app.use("/api/clash-royale", clashRoyaleRoutes);
   
   app.get("/api/health", (_req, res) => res.json({ ok: true }));
+  app.use("/api/dbd", dbdRoutes);
 
   return app;
 }

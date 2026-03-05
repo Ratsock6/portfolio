@@ -32,4 +32,10 @@ export const config = {
     apiKey: process.env.CR_API_KEY,
     refreshMinutes: num("CR_REFRESH_MINUTES", 10),
   },
+
+  steam: {
+    apiKey: process.env.STEAM_API_KEY,
+    steamId: process.env.STEAM_ID,
+    refreshMinutes: num("STEAM_REFRESH_MINUTES", 60),
+  },
 };
