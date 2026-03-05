@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import styles from "../../../styles/clashRoyalePage.module.css";
 import { useCountUp } from "../../../app/hooks/useCountUp";
 import { formatClashDate } from "../../../utils/formatClashDate";
+import { clashArenaImages } from "../../../data/clashArenas";
 
 type IconUrls = {
   medium?: string;
@@ -16,7 +17,7 @@ type Card = {
   maxLevel: number;
   rarity: string;
   elixirCost: number | null;
-  evolutionLevel: number; // -1, 1, 2...
+  evolutionLevel: number;
   iconUrls: IconUrls;
 };
 
@@ -124,7 +125,7 @@ export default function ClashRoyalePage() {
   if (!profile) return <p>Impossible de charger Clash Royale.</p>;
 
   const arenaImg = profile.arena?.id
-    ? `/gaming/cr/arenas/default.png`
+    ? clashArenaImages[profile.arena.id] ?? "/gaming/cr/arenas/default.png"
     : "/gaming/cr/arenas/default.png";
 
 

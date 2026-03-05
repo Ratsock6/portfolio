@@ -1,6 +1,7 @@
 import { config } from "../config.js";
 import { readJson, writeJson } from "../cache/cacheStore.js";
 import { match } from "assert";
+import { upsertArena } from "../cache/arenaRegistry.js";
 
 
 const CACHE_FILE = "clashRoyale-cache.json";
@@ -109,6 +110,9 @@ export async function updateClashRoyaleCache() {
             crowns: p.crowns ?? null,
             })) ?? [],
         }));
+
+
+    upsertArena(profile?.arena);
 
     cache = {
       updatedAt: new Date().toISOString(),
