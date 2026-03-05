@@ -20,6 +20,7 @@ import ValorantMatchDetail from "../pages/interests/gaming/ValorantMatchDetail";
 import SectionThemeLayout from "../layouts/SectionThemeLayout";
 import ClashRoyale from "../pages/interests/gaming/ClashRoyale";
 import DeadByDaylightPage from "../pages/interests/gaming/DeadByDaylight";
+import ClashOfClansPage from "../pages/interests/gaming/ClashOfClans";
 
 
 export const router = createBrowserRouter([
@@ -68,6 +69,12 @@ export const router = createBrowserRouter([
         path: "interests/gaming/dead-by-daylight",
         element: <SectionThemeLayout themeClass="theme-dbd" />,
         children: [{ index: true, element: <DeadByDaylightPage /> }],
+      },
+
+      {
+        path: "interests/gaming/clash-of-clans",
+        element: <SectionThemeLayout themeClass="theme-coc" />,
+        children: [{ index: true, element: <ClashOfClansPage /> }],
       },
     ],
   },
