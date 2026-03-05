@@ -38,4 +38,10 @@ export const config = {
     steamId: process.env.STEAM_ID,
     refreshMinutes: num("STEAM_REFRESH_MINUTES", 60),
   },
+
+  coc: {
+    apiToken: process.env.COC_API_TOKEN,
+    playerTag: process.env.COC_PLAYER_TAG,
+    refreshMinutes: Number(process.env.COC_REFRESH_MINUTES ?? 30),
+  },
 };

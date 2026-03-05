@@ -6,10 +6,11 @@ import { f1Job } from "./scheduler/jobs/f1.job.js";
 import { clashRoyaleJob } from "./scheduler/jobs/clash-royale.job.js";
 import { valorantJob } from "./scheduler/jobs/valorant.job.js";
 import { dbdJob } from "./scheduler/jobs/dbd.job.js";
+import { cocJob } from "./scheduler/jobs/coc.job.js";
 
 const app = createApp();
 
 app.listen(config.port, () => {
   console.log(`✅ Backend running on http://localhost:${config.port}`);
-  startScheduler([chessJob(), f1Job(), valorantJob(), clashRoyaleJob(), dbdJob()]);
+  startScheduler([chessJob(), f1Job(), valorantJob(), clashRoyaleJob(), dbdJob(), cocJob()]);
 });
