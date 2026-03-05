@@ -79,7 +79,7 @@ export default function Chess() {
       setLoading(true);
       const [s, g] = await Promise.all([
         fetch("/api/chess/summary").then((r) => r.json()),
-        fetch("/api/chess/games?limit=10").then((r) => r.json()),
+        fetch("/api/chess/games").then((r) => r.json()),
       ]);
       setSummary(s);
       setGames(g.games ?? []);

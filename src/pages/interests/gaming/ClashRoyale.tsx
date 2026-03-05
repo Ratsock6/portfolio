@@ -1,5 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import styles from "../../../styles/clashRoyalePage.module.css";
+import { useCountUp } from "../../../app/hooks/useCountUp";
+import { formatClashDate } from "../../../utils/formatClashDate";
 
 type IconUrls = {
   medium?: string;
@@ -57,12 +59,6 @@ type ApiData = {
   matches: Match[];
 };
 
-function formatStartedAt(iso: string | null) {
-  if (!iso) return "";
-  const d = new Date(iso);
-  return isNaN(d.getTime()) ? iso : d.toLocaleString();
-}
-
 function outcomeFromCrowns(my: number | null, opp: number | null) {
   if (my == null || opp == null) return "UNKNOWN";
   if (my > opp) return "WIN";
@@ -70,11 +66,6 @@ function outcomeFromCrowns(my: number | null, opp: number | null) {
   return "DRAW";
 }
 
-/**
- * Règle demandée:
- * - Si evolutionLevel === 1 ET index est 0 ou 1 => utiliser iconUrls.evolutionMedium
- * - Sinon => iconUrls.medium
- */
 function pickCardIcon(card: Card): string | null {
   const useEvo = card.evolutionLevel === 1 && (card.index === 0 || card.index === 1);
   return (useEvo ? card.iconUrls?.evolutionMedium : card.iconUrls?.medium) ?? null;
@@ -102,6 +93,13 @@ export default function ClashRoyalePage() {
   const [data, setData] = useState<ApiData | null>(null);
   const [loading, setLoading] = useState(true);
 
+  const trophiesTarget = data?.profile?.trophies ?? 0;
+  const bestTarget = data?.profile?.bestTrophies ?? 0;
+
+  const animatedTrophies = useCountUp(trophiesTarget, { durationMs: 900 });
+  const animatedBest = useCountUp(bestTarget, { durationMs: 1100 });
+
+
   useEffect(() => {
     async function run() {
       setLoading(true);
@@ -128,6 +126,7 @@ export default function ClashRoyalePage() {
   const arenaImg = profile.arena?.id
     ? `/gaming/cr/arenas/default.png`
     : "/gaming/cr/arenas/default.png";
+
 
   return (
     <section className={styles.page}>
@@ -158,10 +157,12 @@ export default function ClashRoyalePage() {
             <div className={styles.trophiesBox}>
               <div className={styles.trophiesTop}>
                 <img className={styles.trophyIcon} src="/gaming/cr/trophy.png" alt="" />
-                <div className={styles.trophiesValue}>{profile.trophies}</div>
+                <div className={styles.trophiesValue} data-pop>
+                  {animatedTrophies}
+                </div>
               </div>
               <div className={styles.trophiesSub}>
-                Peak: <strong>{profile.bestTrophies}</strong>
+                Peak: <strong>{animatedBest}</strong>
               </div>
             </div>
           </div>
@@ -173,6 +174,7 @@ export default function ClashRoyalePage() {
             <StatCard label="3 couronnes" value={profile.threeCrownWins} />
             <StatCard label="Combats" value={profile.battleCount} />
             <StatCard label="Dons" value={profile.totalDonations} />
+            <StatCard label="Pourcentage 3 couronnes" value={profile.threeCrownWins == null ? "—" : `${Math.round((profile.threeCrownWins / profile.wins) * 100)}%`} />
           </div>
         </div>
 
@@ -209,21 +211,18 @@ export default function ClashRoyalePage() {
             const outcome = outcomeFromCrowns(myCrowns, oppCrowns);
 
             const trophyChange = me?.trophyChange ?? null;
-            const score =
-              myCrowns != null && oppCrowns != null ? `${myCrowns} - ${oppCrowns}` : "—";
 
             return (
               <article
                 key={`${m.startedAt ?? idx}`}
-                className={`${styles.match} ${
-                  outcome === "WIN"
-                    ? styles.win
-                    : outcome === "LOSS"
+                className={`${styles.match} ${outcome === "WIN"
+                  ? styles.win
+                  : outcome === "LOSS"
                     ? styles.loss
                     : outcome === "DRAW"
-                    ? styles.draw
-                    : styles.unknown
-                }`}
+                      ? styles.draw
+                      : styles.unknown
+                  }`}
               >
                 <div className={styles.matchTop}>
                   <div className={styles.matchLeft}>
@@ -232,16 +231,29 @@ export default function ClashRoyalePage() {
                   </div>
 
                   <div className={styles.matchRight}>
-                    <span className={styles.score}>{score}</span>
-                    <span className={styles.trophyChange}>
-                      {trophyChange == null ? "—" : trophyChange > 0 ? `+${trophyChange}` : trophyChange}
+                    <span
+                      className={`${styles.trophyBadge} ${trophyChange == null
+                        ? styles.trophyNeutral
+                        : trophyChange > 0
+                          ? styles.trophyPlus
+                          : trophyChange < 0
+                            ? styles.trophyMinus
+                            : styles.trophyNeutral
+                        }`}
+                    >
+                      <img className={styles.trophyMini} src="/gaming/cr/trophy.png" alt="" aria-hidden="true" />
+                      <span className={styles.trophyValue}>
+                        {trophyChange == null ? "—" : trophyChange > 0 ? `+${trophyChange}` : trophyChange}
+                      </span>
                     </span>
                   </div>
                 </div>
 
                 <div className={styles.matchMeta}>
                   <span className={styles.arenaText}>{m.arenaName ?? "—"}</span>
-                  <span className={styles.date}>{formatStartedAt(m.startedAt)}</span>
+                  <span className={styles.date}>
+                    {formatClashDate(m.startedAt)}
+                  </span>
                 </div>
 
                 <div className={styles.duelRow}>
@@ -261,7 +273,14 @@ export default function ClashRoyalePage() {
                     </div>
                   </div>
 
-                  <div className={styles.vs}>VS</div>
+                  <div className={styles.centerCol}>
+                    <div className={styles.crownsScore} aria-label="Score couronnes">
+                      <span className={styles.blueCrowns}>{myCrowns ?? "—"}</span>
+                      <span className={styles.crownsSep}>-</span>
+                      <span className={styles.redCrowns}>{oppCrowns ?? "—"}</span>
+                    </div>
+                    <div className={styles.vs}>VS</div>
+                  </div>
 
                   <div className={styles.playerCol}>
                     <div className={styles.pname}>{opp?.name ?? "—"}</div>

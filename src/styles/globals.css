@@ -125,4 +125,13 @@ html.theme-clash body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  --clash-font: "ClashRoyale", system-ui, sans-serif;
+}
+
+@font-face {
+  font-family: "ClashRoyale";
+  src: url("/src/assets/fonts/Clash_Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
