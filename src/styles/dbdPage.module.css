@@ -1,0 +1,347 @@
+.page {
+  display: grid;
+  gap: 16px;
+}
+
+.hero {
+  display: grid;
+  gap: 14px;
+}
+
+@media (min-width: 980px) {
+  .hero {
+    grid-template-columns: 1.35fr 1fr;
+    align-items: stretch;
+  }
+}
+
+.heroLeft,
+.heroRight {
+  border-radius: 18px;
+  border: 1px solid rgba(170, 0, 255, 0.25);
+  background: rgba(0, 0, 0, 0.20);
+  padding: 16px;
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.35) inset;
+}
+
+.heroTop {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.avatar,
+.avatarFallback {
+  width: 64px;
+  height: 64px;
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,0.14);
+  background: rgba(255,255,255,0.06);
+  object-fit: cover;
+  filter: drop-shadow(0 10px 18px rgba(0,0,0,0.55));
+}
+
+.heroIdentity {
+  display: grid;
+  gap: 4px;
+}
+
+.title {
+  margin: 0;
+  letter-spacing: 1px;
+  text-shadow: 0 0 16px rgba(170, 0, 255, 0.25);
+}
+
+.playerName {
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.metaLine {
+  font-size: 12px;
+  color: rgba(255,255,255,0.74);
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.dot {
+  opacity: 0.55;
+}
+
+.link {
+  color: rgba(0, 255, 150, 0.9);
+  text-decoration: none;
+  border-bottom: 1px dashed rgba(0,255,150,0.45);
+}
+
+.link:hover {
+  filter: brightness(1.1);
+}
+
+.kpis {
+  margin-top: 14px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.kpi {
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(0,0,0,0.18);
+  border-radius: 16px;
+  padding: 12px;
+}
+
+.kpiLabel {
+  font-size: 12px;
+  color: rgba(255,255,255,0.70);
+  margin-bottom: 6px;
+}
+
+.kpiValue {
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.kpiSub {
+  margin-top: 6px;
+  font-size: 12px;
+  color: rgba(255,255,255,0.70);
+}
+
+.progressWrap {
+  margin-top: 12px;
+}
+
+.progressTop {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  color: rgba(255,255,255,0.80);
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.progressBar {
+  height: 12px;
+  border-radius: 999px;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.06);
+}
+
+.progressFill {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, rgba(170,0,255,0.85), rgba(0,255,150,0.75));
+  box-shadow: 0 0 18px rgba(170,0,255,0.25);
+}
+
+.panel {
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(0,0,0,0.18);
+  padding: 16px;
+}
+
+.panelTitle {
+  font-weight: 900;
+  letter-spacing: 0.6px;
+  margin-bottom: 12px;
+  opacity: 0.95;
+}
+
+.achList {
+  display: grid;
+  gap: 10px;
+}
+
+.achItem {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(0,0,0,0.16);
+  padding: 10px;
+}
+
+.achIcon,
+.achIconFallback {
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(255,255,255,0.06);
+  object-fit: cover;
+  flex: 0 0 auto;
+}
+
+.achText {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
+}
+
+.achName {
+  font-weight: 900;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.achDesc {
+  font-size: 12px;
+  color: rgba(255,255,255,0.72);
+  line-height: 1.3;
+}
+
+.achTime {
+  font-style: italic;
+  opacity: 0.9;
+}
+
+.grid {
+  display: grid;
+  gap: 14px;
+}
+
+@media (min-width: 980px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+  }
+}
+
+.statsGrid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+@media (max-width: 700px) {
+  .statsGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.statCard {
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(0,0,0,0.16);
+  border-radius: 16px;
+  padding: 12px;
+}
+
+.statName {
+  font-size: 12px;
+  color: rgba(255,255,255,0.70);
+  margin-bottom: 6px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.statValue {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.achGrid {
+  display: grid;
+  gap: 10px;
+}
+
+.lockedCard {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(0,0,0,0.16);
+  padding: 10px;
+}
+
+.lockedIcon,
+.lockedIconFallback {
+  width: 46px;
+  height: 46px;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(255,255,255,0.06);
+  object-fit: cover;
+  flex: 0 0 auto;
+  filter: grayscale(1);
+  opacity: 0.9;
+}
+
+.lockedText {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
+}
+
+.lockedName {
+  font-weight: 900;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.lockedDesc {
+  font-size: 12px;
+  color: rgba(255,255,255,0.72);
+  line-height: 1.3;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.empty {
+  color: rgba(255,255,255,0.70);
+  font-size: 12px;
+}
+
+.inlineStats {
+  margin-top: 14px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+@media (max-width: 700px) {
+  .inlineStats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.inlineStat {
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(0,0,0,0.16);
+  padding: 10px;
+  text-align: center;
+}
+
+.inlineStatValue {
+  font-size: 18px;
+  font-weight: 900;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.2px;
+  max-width: 100%;
+}
+
+.inlineStatName {
+  margin-top: 4px;
+  font-size: 11px;
+  color: rgba(255,255,255,0.7);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
