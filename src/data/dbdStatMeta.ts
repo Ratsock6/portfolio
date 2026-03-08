@@ -10,7 +10,7 @@ export type DbdStatMeta = {
 export const dbdStatMeta: Record<string, DbdStatMeta> = {
   // Survivor (core)
   DBD_Escape: { label: "Évasions", category: "survivor", order: 10, format: "int" },
-  DBD_EscapeKO: { label: "Évasions (trappe)", category: "survivor", order: 11, format: "int" },
+  DBD_EscapeKO: { label: "Évasions au sol", category: "survivor", order: 11, format: "int" },
   DBD_EscapeThroughHatch: { label: "Évasions par la trappe", category: "survivor", order: 12, format: "int" },
   DBD_HookedAndEscape: { label: "Évasions après crochet", category: "survivor", order: 13, format: "int" },
 

@@ -28,7 +28,7 @@ export const clashArenaImages: Record<number, string> = {
   54000036: "/gaming/cr/arenas/arena26.png",
   54000037: "/gaming/cr/arenas/arena27.png",
   54000132: "/gaming/cr/arenas/arena28.png",
-  54000039: "/gaming/cr/arenas/arena29.png",
+  54000141: "/gaming/cr/arenas/arena29.jpg",
   54000040: "/gaming/cr/arenas/arena30.png",
   54000041: "/gaming/cr/arenas/arena31.png"
 };
