@@ -175,7 +175,7 @@ export default function Intra42Page() {
   if (error) {
     return <div className={styles.intra42State}>{error}</div>;
   }
-  
+
   if (!profile) {
     return <div className={styles.intra42State}>Profil 42 introuvable.</div>;
   }
@@ -278,6 +278,9 @@ export default function Intra42Page() {
 
   const titles = useMemo(() => {
     let final_titles = [];
+
+    if (!profile?.titles_users)
+        return final_titles;
 
     for (const title of profile?.titles ?? []) {
         if (!title.name) continue;
