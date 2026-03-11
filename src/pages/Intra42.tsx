@@ -168,18 +168,6 @@ export default function Intra42Page() {
 
   const profile = data?.profile ?? null;
 
-  if (loading) {
-    return <div className={styles.intra42State}>Chargement du profil 42...</div>;
-  }
-
-  if (error) {
-    return <div className={styles.intra42State}>{error}</div>;
-  }
-
-  if (!profile) {
-    return <div className={styles.intra42State}>Profil 42 introuvable.</div>;
-  }
-
   const mainCursus = useMemo(() => getMainCursus(profile), [profile]);
 
   const level = mainCursus?.level ?? 0;
@@ -278,15 +266,24 @@ export default function Intra42Page() {
 
   const titles = useMemo(() => {
     let final_titles = [];
+    let created_at = null;
 
-    if (!profile?.titles_users)
-        return final_titles;
 
     for (const title of profile?.titles ?? []) {
         if (!title.name) continue;
+        if (profile?.titles_users) {
+            for (const title_user of profile.titles_users) {
+                if (title_user.title?.id === title.id) {
+                    created_at = title_user.created_at ?? null;
+                    break;
+                }
+            }
+        }
+
         final_titles.push({
             id: title.id ?? Math.random(),
-            name: title.name.replace("%login", profile.login ?? "user")
+            name: title.name.replace("%login", profile.login ?? "user"),
+            created_at: created_at
         });
     }
     return final_titles;
@@ -376,7 +373,7 @@ export default function Intra42Page() {
       id: `title-${title.id}`,
       type: "title",
       title: title.name,
-      subtitle: title.selected ? "Titre actif" : "Titre débloqué",
+      subtitle: "Titre débloqué",
       date: title.created_at ?? null,
       timestamp: getTimestamp(title.created_at),
       status: title.selected ? "validated" : "info",
