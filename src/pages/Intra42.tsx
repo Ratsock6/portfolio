@@ -167,6 +167,19 @@ export default function Intra42Page() {
   }, []);
 
   const profile = data?.profile ?? null;
+
+  if (loading) {
+    return <div className={styles.intra42State}>Chargement du profil 42...</div>;
+  }
+
+  if (error) {
+    return <div className={styles.intra42State}>{error}</div>;
+  }
+  
+  if (!profile) {
+    return <div className={styles.intra42State}>Profil 42 introuvable.</div>;
+  }
+
   const mainCursus = useMemo(() => getMainCursus(profile), [profile]);
 
   const level = mainCursus?.level ?? 0;
