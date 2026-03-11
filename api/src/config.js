@@ -49,6 +49,6 @@ export const config = {
     secret: process.env.SECRET_KEY,
     uid: process.env.UID_KEY,
     login: process.env.LOGIN,
-    refreshMinutes: num("42_REFRESH_MINUTES", 60),
+    refreshMinutes: num("FORTYTWO_REFRESH_MINUTES", 60),
   },
 };
