@@ -166,7 +166,7 @@ export default function Intra42Page() {
     run();
   }, []);
 
-  const profile = data?.profile ?? null;
+  const profile = data?.profile ?? undefined;
 
   const mainCursus = useMemo(() => getMainCursus(profile), [profile]);
 
@@ -267,6 +267,8 @@ export default function Intra42Page() {
   const titles = useMemo(() => {
     let final_titles = [];
     let created_at = null;
+
+    if (!profile?.titles) return [];
 
 
     for (const title of profile?.titles ?? []) {

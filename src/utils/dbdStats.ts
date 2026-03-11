@@ -4,7 +4,7 @@ export function getDbdMeta(key: string) {
   return dbdStatMeta[key] ?? null;
 }
 
-export function getDbdCategory(key: string): DbdCategory {
+export function getDbdCategory(key: string): string {
   return getDbdMeta(key)?.category ?? "other";
 }
 
