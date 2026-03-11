@@ -5,3 +5,7 @@
 /server/data/*
 /server/cache/*
 /server/.env
+/api/node_modules
+/api/data/*
+/api/cache/*
+/api/.env
