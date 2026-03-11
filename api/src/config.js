@@ -7,7 +7,7 @@ function num(name, def) {
 }
 
 export const config = {
-  port: Number(process.env.PORT) || 4000,
+  port: 4000,
 
   chess: {
     username: process.env.CHESS_USERNAME,
