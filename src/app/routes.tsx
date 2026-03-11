@@ -21,6 +21,7 @@ import SectionThemeLayout from "../layouts/SectionThemeLayout";
 import ClashRoyale from "../pages/interests/gaming/ClashRoyale";
 import DeadByDaylightPage from "../pages/interests/gaming/DeadByDaylight";
 import ClashOfClansPage from "../pages/interests/gaming/ClashOfClans";
+import Intra42Page from "../pages/Intra42";
 
 
 export const router = createBrowserRouter([
@@ -35,6 +36,7 @@ export const router = createBrowserRouter([
       { path: "projects/:slug", element: <ProjectDetail /> },
       { path: "dev-projects", element: <DevProjects /> },
       { path: "dev-projects/:slug", element: <DevProjectDetail /> },
+      { path: "mon-ecole", element: <Intra42Page /> },
       { path: "interests/chess", element: <Chess /> },
       {
         path: "interests/f1",

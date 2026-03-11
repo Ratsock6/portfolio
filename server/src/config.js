@@ -44,4 +44,11 @@ export const config = {
     playerTag: process.env.COC_PLAYER_TAG,
     refreshMinutes: Number(process.env.COC_REFRESH_MINUTES ?? 30),
   },
+
+  _42: {
+    secret: process.env.SECRET_KEY,
+    uid: process.env.UID_KEY,
+    login: process.env.LOGIN,
+    refreshMinutes: num("42_REFRESH_MINUTES", 60),
+  },
 };

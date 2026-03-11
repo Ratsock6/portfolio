@@ -41,6 +41,16 @@ export default function Navbar({ theme, onToggleTheme }: Props) {
               Dev perso
             </NavLink>
 
+          
+              <NavLink
+              to="/mon-ecole"
+              className={({ isActive }) =>
+                isActive ? styles.active : styles.link
+              }
+            >
+              Mon école
+            </NavLink>
+
             <NavLink
               to="/about"
               className={({ isActive }) =>
