@@ -1,0 +1,332 @@
+{
+  "updatedAt": "2026-03-11T01:17:55.191Z",
+  "stats": {
+    "chess_daily": {
+      "last": {
+        "rating": 275,
+        "date": 1773186029,
+        "rd": 252
+      },
+      "record": {
+        "win": 1,
+        "loss": 1,
+        "draw": 0,
+        "time_per_move": 11058,
+        "timeout_percent": 0
+      }
+    },
+    "chess_rapid": {
+      "last": {
+        "rating": 506,
+        "date": 1772059344,
+        "rd": 85
+      },
+      "best": {
+        "rating": 646,
+        "date": 1705498918,
+        "game": "https://www.chess.com/game/live/125796515685"
+      },
+      "record": {
+        "win": 35,
+        "loss": 30,
+        "draw": 3
+      }
+    },
+    "chess_bullet": {
+      "last": {
+        "rating": 142,
+        "date": 1773138300,
+        "rd": 48
+      },
+      "best": {
+        "rating": 302,
+        "date": 1770554384,
+        "game": "https://www.chess.com/game/live/165753260296"
+      },
+      "record": {
+        "win": 24,
+        "loss": 32,
+        "draw": 3
+      }
+    },
+    "chess_blitz": {
+      "last": {
+        "rating": 400,
+        "date": 1729842279
+      },
+      "record": {
+        "win": 0,
+        "loss": 1,
+        "draw": 0
+      }
+    },
+    "fide": 0,
+    "tactics": {
+      "highest": {
+        "rating": 1380,
+        "date": 1773151782
+      },
+      "lowest": {
+        "rating": 987,
+        "date": 1772969451
+      }
+    },
+    "puzzle_rush": {
+      "best": {
+        "total_attempts": 14,
+        "score": 11
+      }
+    }
+  },
+  "games": [
+    {
+      "url": "https://www.chess.com/game/daily/941397971",
+      "time_control": "1/259200",
+      "time_class": "daily",
+      "end_time": 1773186029,
+      "rated": true,
+      "rules": "chess",
+      "white": {
+        "rating": 275,
+        "result": "win",
+        "@id": "https://api.chess.com/pub/player/antoine_rat",
+        "username": "Antoine_rat",
+        "uuid": "92856812-b53b-11ee-a9ea-317becb0cecf"
+      },
+      "black": {
+        "rating": 400,
+        "result": "timeout",
+        "@id": "https://api.chess.com/pub/player/hbomb92",
+        "username": "HBomb92",
+        "uuid": "e1163d4c-fd4d-11f0-bfd8-2928ab7e5194"
+      }
+    },
+    {
+      "url": "https://www.chess.com/game/live/165753260296",
+      "time_control": "120+1",
+      "time_class": "bullet",
+      "end_time": 1773138300,
+      "rated": true,
+      "rules": "chess",
+      "white": {
+        "rating": 142,
+        "result": "win",
+        "@id": "https://api.chess.com/pub/player/antoine_rat",
+        "username": "Antoine_rat",
+        "uuid": "92856812-b53b-11ee-a9ea-317becb0cecf"
+      },
+      "black": {
+        "rating": 292,
+        "result": "checkmated",
+        "@id": "https://api.chess.com/pub/player/thanoskalentinis",
+        "username": "thanoskalentinis",
+        "uuid": "d436e7f0-60d4-11ef-b400-374e2ea9b477"
+      }
+    },
+    {
+      "url": "https://www.chess.com/game/live/165748754614",
+      "time_control": "120+1",
+      "time_class": "bullet",
+      "end_time": 1773128568,
+      "rated": true,
+      "rules": "chess",
+      "white": {
+        "rating": 274,
+        "result": "win",
+        "@id": "https://api.chess.com/pub/player/khadija_027",
+        "username": "khadija_027",
+        "uuid": "ae5a1474-c851-11ee-8a4f-d7c138111b5b"
+      },
+      "black": {
+        "rating": 130,
+        "result": "abandoned",
+        "@id": "https://api.chess.com/pub/player/antoine_rat",
+        "username": "Antoine_rat",
+        "uuid": "92856812-b53b-11ee-a9ea-317becb0cecf"
+      }
+    },
+    {
+      "url": "https://www.chess.com/game/live/165748645984",
+      "time_control": "120+1",
+      "time_class": "bullet",
+      "end_time": 1773128279,
+      "rated": true,
+      "rules": "chess",
+      "white": {
+        "rating": 135,
+        "result": "checkmated",
+        "@id": "https://api.chess.com/pub/player/antoine_rat",
+        "username": "Antoine_rat",
+        "uuid": "92856812-b53b-11ee-a9ea-317becb0cecf"
+      },
+      "black": {
+        "rating": 269,
+        "result": "win",
+        "@id": "https://api.chess.com/pub/player/khadija_027",
+        "username": "khadija_027",
+        "uuid": "ae5a1474-c851-11ee-8a4f-d7c138111b5b"
+      }
+    },
+    {
+      "url": "https://www.chess.com/game/daily/940396981",
+      "time_control": "1/259200",
+      "time_class": "daily",
+      "end_time": 1773128041,
+      "rated": true,
+      "rules": "chess",
+      "white": {
+        "rating": 488,
+        "result": "win",
+        "@id": "https://api.chess.com/pub/player/richieforsale",
+        "username": "Richieforsale",
+        "uuid": "47816dd8-86e4-11e3-804e-000000000000"
+      },
+      "black": {
+        "rating": 275,
+        "result": "checkmated",
+        "@id": "https://api.chess.com/pub/player/antoine_rat",
+        "username": "Antoine_rat",
+        "uuid": "92856812-b53b-11ee-a9ea-317becb0cecf"
+      }
+    },
+    {
+      "url": "https://www.chess.com/game/live/165709009728",
+      "time_control": "120+1",
+      "time_class": "bullet",
+      "end_time": 1773051973,
+      "rated": true,
+      "rules": "chess",
+      "white": {
+        "rating": 112,
+        "result": "timeout",
+        "@id": "https://api.chess.com/pub/player/ghaurisanker",
+        "username": "ghaurisanker",
+        "uuid": "f45edec2-4972-11ee-bb26-05ab98a7e686"
+      },
+      "black": {
+        "rating": 140,
+        "result": "win",
+        "@id": "https://api.chess.com/pub/player/antoine_rat",
+        "username": "Antoine_rat",
+        "uuid": "92856812-b53b-11ee-a9ea-317becb0cecf"
+      }
+    },
+    {
+      "url": "https://www.chess.com/game/live/165669165166",
+      "time_control": "120+1",
+      "time_class": "bullet",
+      "end_time": 1772969195,
+      "rated": true,
+      "rules": "chess",
+      "white": {
+        "rating": 163,
+        "result": "win",
+        "@id": "https://api.chess.com/pub/player/shyynaz",
+        "username": "Shyynaz",
+        "uuid": "adf5db92-f92a-11f0-b4a2-8583222c9abb"
+      },
+      "black": {
+        "rating": 132,
+        "result": "resigned",
+        "@id": "https://api.chess.com/pub/player/antoine_rat",
+        "username": "Antoine_rat",
+        "uuid": "92856812-b53b-11ee-a9ea-317becb0cecf"
+      }
+    },
+    {
+      "url": "https://www.chess.com/game/live/165668415186",
+      "time_control": "120+1",
+      "time_class": "bullet",
+      "end_time": 1772967900,
+      "rated": true,
+      "rules": "chess",
+      "white": {
+        "rating": 140,
+        "result": "resigned",
+        "@id": "https://api.chess.com/pub/player/antoine_rat",
+        "username": "Antoine_rat",
+        "uuid": "92856812-b53b-11ee-a9ea-317becb0cecf"
+      },
+      "black": {
+        "rating": 113,
+        "result": "win",
+        "@id": "https://api.chess.com/pub/player/kamehameha_bean",
+        "username": "Kamehameha_bean",
+        "uuid": "2e9f1962-f290-11f0-a4f1-8ffefa2c95fb"
+      }
+    },
+    {
+      "url": "https://www.chess.com/game/live/165668338930",
+      "time_control": "120+1",
+      "time_class": "bullet",
+      "end_time": 1772967669,
+      "rated": true,
+      "rules": "chess",
+      "white": {
+        "rating": 139,
+        "result": "win",
+        "@id": "https://api.chess.com/pub/player/neckdeep_9",
+        "username": "Neckdeep_9",
+        "uuid": "11bf7db0-0316-11f0-9b67-e1fd26219370"
+      },
+      "black": {
+        "rating": 149,
+        "result": "resigned",
+        "@id": "https://api.chess.com/pub/player/antoine_rat",
+        "username": "Antoine_rat",
+        "uuid": "92856812-b53b-11ee-a9ea-317becb0cecf"
+      }
+    },
+    {
+      "url": "https://www.chess.com/game/live/165658356526",
+      "time_control": "120+1",
+      "time_class": "bullet",
+      "end_time": 1772945595,
+      "rated": true,
+      "rules": "chess",
+      "white": {
+        "rating": 158,
+        "result": "timeout",
+        "@id": "https://api.chess.com/pub/player/antoine_rat",
+        "username": "Antoine_rat",
+        "uuid": "92856812-b53b-11ee-a9ea-317becb0cecf"
+      },
+      "black": {
+        "rating": 111,
+        "result": "win",
+        "@id": "https://api.chess.com/pub/player/redaelli",
+        "username": "Redaelli",
+        "uuid": "5a15615a-e831-11f0-88a4-e36012c6f33c"
+      }
+    }
+  ],
+  "_archives": [
+    "https://api.chess.com/pub/player/antoine_rat/games/2024/01",
+    "https://api.chess.com/pub/player/antoine_rat/games/2024/10",
+    "https://api.chess.com/pub/player/antoine_rat/games/2024/11",
+    "https://api.chess.com/pub/player/antoine_rat/games/2024/12",
+    "https://api.chess.com/pub/player/antoine_rat/games/2025/01",
+    "https://api.chess.com/pub/player/antoine_rat/games/2025/02",
+    "https://api.chess.com/pub/player/antoine_rat/games/2025/03",
+    "https://api.chess.com/pub/player/antoine_rat/games/2025/04",
+    "https://api.chess.com/pub/player/antoine_rat/games/2025/10",
+    "https://api.chess.com/pub/player/antoine_rat/games/2026/02",
+    "https://api.chess.com/pub/player/antoine_rat/games/2026/03"
+  ],
+  "etag": {
+    "stats": "W/\"01c25083767a1a5e619fc4cead927868\"",
+    "archives": "W/\"4492de42a25957e91190ff1f798d7826\"",
+    "games": {
+      "https://api.chess.com/pub/player/antoine_rat/games/2026/03": "W/\"50b582114f19d3790e86886873c51cfc\"",
+      "https://api.chess.com/pub/player/antoine_rat/games/2026/02": "W/\"d534c0da1138c0f7ef2d310ed1ffc74a\""
+    }
+  },
+  "lastModified": {
+    "stats": "Tuesday, 10-Mar-2026 23:47:53 GMT+0000",
+    "archives": "Tuesday, 03-Mar-2026 01:44:55 GMT+0000",
+    "games": {
+      "https://api.chess.com/pub/player/antoine_rat/games/2026/03": "Tuesday, 10-Mar-2026 23:47:54 GMT+0000",
+      "https://api.chess.com/pub/player/antoine_rat/games/2026/02": "Tuesday, 03-Mar-2026 01:44:56 GMT+0000"
+    }
+  }
+}

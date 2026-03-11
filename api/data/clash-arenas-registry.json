@@ -1,0 +1,19 @@
+{
+  "updatedAt": "2026-03-11T01:17:54.612Z",
+  "arenas": {
+    "54000132": {
+      "id": 54000132,
+      "name": "Summit of Heroes",
+      "rawName": "Arena_L14",
+      "firstSeenAt": "2026-03-05T19:30:51.422Z",
+      "lastSeenAt": "2026-03-05T23:11:53.726Z"
+    },
+    "54000141": {
+      "id": 54000141,
+      "name": "Magic Academy",
+      "rawName": "Arena_L15",
+      "firstSeenAt": "2026-03-07T20:06:02.359Z",
+      "lastSeenAt": "2026-03-11T01:17:54.612Z"
+    }
+  }
+}

@@ -1,0 +1,3975 @@
+{
+  "updatedAt": "2026-03-11T01:17:54.364Z",
+  "profile": {
+    "name": "26DansLeFroc",
+    "tag": "FRR",
+    "region": "eu",
+    "rank": "Platinum 1",
+    "rr": 12,
+    "mmr": null,
+    "lastUpdated": null
+  },
+  "matches": [
+    {
+      "matchId": "cd31367c-6c0f-466f-87c6-266e09932d72",
+      "startedAt": "Wednesday, March 11, 2026 12:15 AM",
+      "map": "Skirmish A",
+      "mode": "Custom Game",
+      "queue": "Skirmish",
+      "won": false,
+      "teams": {
+        "red": {
+          "has_won": false,
+          "rounds_won": 6,
+          "rounds_lost": 10,
+          "roster": null
+        },
+        "blue": {
+          "has_won": true,
+          "rounds_won": 10,
+          "rounds_lost": 6,
+          "roster": null
+        }
+      },
+      "players": {
+        "all_players": [
+          {
+            "puuid": "d7466a99-56dc-5f91-8823-e51710b991bb",
+            "name": "BigBlackCrease",
+            "tag": "12356",
+            "team": "Red",
+            "level": 24,
+            "character": "Sova",
+            "currenttier": 0,
+            "currenttier_patched": "Unrated",
+            "player_card": "c06b12b4-4517-5608-3eb9-b1b2d4f57d84",
+            "player_title": "8198f12e-4899-0f25-8319-cbad87d9097b",
+            "party_id": "3412ed66-b2bb-49c0-9c96-8d391e75e90e",
+            "session_playtime": {
+              "minutes": 138,
+              "seconds": 8280,
+              "milliseconds": 8280000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 0.5
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.26120.1.768.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": null,
+              "e_cast": null,
+              "q_cast": null,
+              "c_cast": null
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/c06b12b4-4517-5608-3eb9-b1b2d4f57d84/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/c06b12b4-4517-5608-3eb9-b1b2d4f57d84/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/c06b12b4-4517-5608-3eb9-b1b2d4f57d84/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 2044,
+              "kills": 6,
+              "deaths": 12,
+              "assists": 2,
+              "bodyshots": 0,
+              "headshots": 0,
+              "legshots": 0
+            },
+            "economy": {
+              "spent": {
+                "overall": 0,
+                "average": 0
+              },
+              "loadout_value": {
+                "overall": 0,
+                "average": 0
+              }
+            },
+            "damage_made": 0,
+            "damage_received": 0
+          },
+          {
+            "puuid": "8170b766-d547-5779-b23c-35493a8134e1",
+            "name": "echo メ",
+            "tag": "A3OB",
+            "team": "Blue",
+            "level": 92,
+            "character": "Phoenix",
+            "currenttier": 0,
+            "currenttier_patched": "Unrated",
+            "player_card": "9fb348bc-41a0-91ad-8a3e-818035c4e561",
+            "player_title": "8198f12e-4899-0f25-8319-cbad87d9097b",
+            "party_id": "d2565d94-c686-44fd-81df-78c90814ba2c",
+            "session_playtime": {
+              "minutes": 9,
+              "seconds": 540,
+              "milliseconds": 540000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 1
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.19045.1.256.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": null,
+              "e_cast": null,
+              "q_cast": null,
+              "c_cast": null
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 2519,
+              "kills": 11,
+              "deaths": 9,
+              "assists": 0,
+              "bodyshots": 0,
+              "headshots": 0,
+              "legshots": 0
+            },
+            "economy": {
+              "spent": {
+                "overall": 0,
+                "average": 0
+              },
+              "loadout_value": {
+                "overall": 0,
+                "average": 0
+              }
+            },
+            "damage_made": 0,
+            "damage_received": 0
+          },
+          {
+            "puuid": "01f58609-044d-51f2-bda0-040974d0f58a",
+            "name": "26DansLeFroc",
+            "tag": "FRR",
+            "team": "Blue",
+            "level": 182,
+            "character": "Waylay",
+            "currenttier": 0,
+            "currenttier_patched": "Unrated",
+            "player_card": "9fb348bc-41a0-91ad-8a3e-818035c4e561",
+            "player_title": "8198f12e-4899-0f25-8319-cbad87d9097b",
+            "party_id": "121cf553-336f-4635-8957-a2c0c94a119c",
+            "session_playtime": {
+              "minutes": 1,
+              "seconds": 60,
+              "milliseconds": 60000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 1
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.26200.1.768.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": null,
+              "e_cast": null,
+              "q_cast": null,
+              "c_cast": null
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 3183,
+              "kills": 13,
+              "deaths": 8,
+              "assists": 1,
+              "bodyshots": 0,
+              "headshots": 0,
+              "legshots": 0
+            },
+            "economy": {
+              "spent": {
+                "overall": 0,
+                "average": 0
+              },
+              "loadout_value": {
+                "overall": 0,
+                "average": 0
+              }
+            },
+            "damage_made": 0,
+            "damage_received": 0
+          },
+          {
+            "puuid": "386110a1-a185-513c-9cc0-668f1e12e88a",
+            "name": "roadtoimmo",
+            "tag": "ego",
+            "team": "Red",
+            "level": 305,
+            "character": "Jett",
+            "currenttier": 0,
+            "currenttier_patched": "Unrated",
+            "player_card": "a7e78a56-4557-383e-72a1-95ae97bcf2c1",
+            "player_title": "d13e579c-435e-44d4-cec2-6eae5a3c5ed4",
+            "party_id": "69acf60c-f588-47cd-aac6-373b33be2153",
+            "session_playtime": {
+              "minutes": 156,
+              "seconds": 9360,
+              "milliseconds": 9360000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 0.5
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.26200.1.768.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": null,
+              "e_cast": null,
+              "q_cast": null,
+              "c_cast": null
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/a7e78a56-4557-383e-72a1-95ae97bcf2c1/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/a7e78a56-4557-383e-72a1-95ae97bcf2c1/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/a7e78a56-4557-383e-72a1-95ae97bcf2c1/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 2644,
+              "kills": 11,
+              "deaths": 12,
+              "assists": 0,
+              "bodyshots": 0,
+              "headshots": 0,
+              "legshots": 0
+            },
+            "economy": {
+              "spent": {
+                "overall": 0,
+                "average": 0
+              },
+              "loadout_value": {
+                "overall": 0,
+                "average": 0
+              }
+            },
+            "damage_made": 0,
+            "damage_received": 0
+          }
+        ],
+        "red": [
+          {
+            "puuid": "d7466a99-56dc-5f91-8823-e51710b991bb",
+            "name": "BigBlackCrease",
+            "tag": "12356",
+            "team": "Red",
+            "level": 24,
+            "character": "Sova",
+            "currenttier": 0,
+            "currenttier_patched": "Unrated",
+            "player_card": "c06b12b4-4517-5608-3eb9-b1b2d4f57d84",
+            "player_title": "8198f12e-4899-0f25-8319-cbad87d9097b",
+            "party_id": "3412ed66-b2bb-49c0-9c96-8d391e75e90e",
+            "session_playtime": {
+              "minutes": 138,
+              "seconds": 8280,
+              "milliseconds": 8280000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 0.5
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.26120.1.768.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": null,
+              "e_cast": null,
+              "q_cast": null,
+              "c_cast": null
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/c06b12b4-4517-5608-3eb9-b1b2d4f57d84/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/c06b12b4-4517-5608-3eb9-b1b2d4f57d84/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/c06b12b4-4517-5608-3eb9-b1b2d4f57d84/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 2044,
+              "kills": 6,
+              "deaths": 12,
+              "assists": 2,
+              "bodyshots": 0,
+              "headshots": 0,
+              "legshots": 0
+            },
+            "economy": {
+              "spent": {
+                "overall": 0,
+                "average": 0
+              },
+              "loadout_value": {
+                "overall": 0,
+                "average": 0
+              }
+            },
+            "damage_made": 0,
+            "damage_received": 0
+          },
+          {
+            "puuid": "386110a1-a185-513c-9cc0-668f1e12e88a",
+            "name": "roadtoimmo",
+            "tag": "ego",
+            "team": "Red",
+            "level": 305,
+            "character": "Jett",
+            "currenttier": 0,
+            "currenttier_patched": "Unrated",
+            "player_card": "a7e78a56-4557-383e-72a1-95ae97bcf2c1",
+            "player_title": "d13e579c-435e-44d4-cec2-6eae5a3c5ed4",
+            "party_id": "69acf60c-f588-47cd-aac6-373b33be2153",
+            "session_playtime": {
+              "minutes": 156,
+              "seconds": 9360,
+              "milliseconds": 9360000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 0.5
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.26200.1.768.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": null,
+              "e_cast": null,
+              "q_cast": null,
+              "c_cast": null
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/a7e78a56-4557-383e-72a1-95ae97bcf2c1/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/a7e78a56-4557-383e-72a1-95ae97bcf2c1/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/a7e78a56-4557-383e-72a1-95ae97bcf2c1/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 2644,
+              "kills": 11,
+              "deaths": 12,
+              "assists": 0,
+              "bodyshots": 0,
+              "headshots": 0,
+              "legshots": 0
+            },
+            "economy": {
+              "spent": {
+                "overall": 0,
+                "average": 0
+              },
+              "loadout_value": {
+                "overall": 0,
+                "average": 0
+              }
+            },
+            "damage_made": 0,
+            "damage_received": 0
+          }
+        ],
+        "blue": [
+          {
+            "puuid": "8170b766-d547-5779-b23c-35493a8134e1",
+            "name": "echo メ",
+            "tag": "A3OB",
+            "team": "Blue",
+            "level": 92,
+            "character": "Phoenix",
+            "currenttier": 0,
+            "currenttier_patched": "Unrated",
+            "player_card": "9fb348bc-41a0-91ad-8a3e-818035c4e561",
+            "player_title": "8198f12e-4899-0f25-8319-cbad87d9097b",
+            "party_id": "d2565d94-c686-44fd-81df-78c90814ba2c",
+            "session_playtime": {
+              "minutes": 9,
+              "seconds": 540,
+              "milliseconds": 540000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 1
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.19045.1.256.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": null,
+              "e_cast": null,
+              "q_cast": null,
+              "c_cast": null
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 2519,
+              "kills": 11,
+              "deaths": 9,
+              "assists": 0,
+              "bodyshots": 0,
+              "headshots": 0,
+              "legshots": 0
+            },
+            "economy": {
+              "spent": {
+                "overall": 0,
+                "average": 0
+              },
+              "loadout_value": {
+                "overall": 0,
+                "average": 0
+              }
+            },
+            "damage_made": 0,
+            "damage_received": 0
+          },
+          {
+            "puuid": "01f58609-044d-51f2-bda0-040974d0f58a",
+            "name": "26DansLeFroc",
+            "tag": "FRR",
+            "team": "Blue",
+            "level": 182,
+            "character": "Waylay",
+            "currenttier": 0,
+            "currenttier_patched": "Unrated",
+            "player_card": "9fb348bc-41a0-91ad-8a3e-818035c4e561",
+            "player_title": "8198f12e-4899-0f25-8319-cbad87d9097b",
+            "party_id": "121cf553-336f-4635-8957-a2c0c94a119c",
+            "session_playtime": {
+              "minutes": 1,
+              "seconds": 60,
+              "milliseconds": 60000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 1
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.26200.1.768.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": null,
+              "e_cast": null,
+              "q_cast": null,
+              "c_cast": null
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 3183,
+              "kills": 13,
+              "deaths": 8,
+              "assists": 1,
+              "bodyshots": 0,
+              "headshots": 0,
+              "legshots": 0
+            },
+            "economy": {
+              "spent": {
+                "overall": 0,
+                "average": 0
+              },
+              "loadout_value": {
+                "overall": 0,
+                "average": 0
+              }
+            },
+            "damage_made": 0,
+            "damage_received": 0
+          }
+        ]
+      },
+      "stats": null
+    },
+    {
+      "matchId": "c11e724a-dedf-4bac-a826-962f62787a51",
+      "startedAt": "Monday, March 09, 2026 10:41 PM",
+      "map": "Skirmish A",
+      "mode": "Custom Game",
+      "queue": "Skirmish",
+      "won": false,
+      "teams": {
+        "red": {
+          "has_won": false,
+          "rounds_won": 2,
+          "rounds_lost": 10,
+          "roster": null
+        },
+        "blue": {
+          "has_won": true,
+          "rounds_won": 10,
+          "rounds_lost": 2,
+          "roster": null
+        }
+      },
+      "players": {
+        "all_players": [
+          {
+            "puuid": "ab8ff27b-b10b-5a72-b3b0-f2fc980e08f7",
+            "name": "38DansLeCalbar",
+            "tag": "FRR",
+            "team": "Blue",
+            "level": 45,
+            "character": "Sova",
+            "currenttier": 0,
+            "currenttier_patched": "Unrated",
+            "player_card": "9fb348bc-41a0-91ad-8a3e-818035c4e561",
+            "player_title": "8198f12e-4899-0f25-8319-cbad87d9097b",
+            "party_id": "8332bf25-39f0-43c3-9b0f-bcfeac5f996d",
+            "session_playtime": {
+              "minutes": 52,
+              "seconds": 3120,
+              "milliseconds": 3120000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 1
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.26200.1.768.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": null,
+              "e_cast": null,
+              "q_cast": null,
+              "c_cast": null
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 2198,
+              "kills": 10,
+              "deaths": 5,
+              "assists": 1,
+              "bodyshots": 0,
+              "headshots": 0,
+              "legshots": 0
+            },
+            "economy": {
+              "spent": {
+                "overall": 0,
+                "average": 0
+              },
+              "loadout_value": {
+                "overall": 0,
+                "average": 0
+              }
+            },
+            "damage_made": 0,
+            "damage_received": 0
+          },
+          {
+            "puuid": "01f58609-044d-51f2-bda0-040974d0f58a",
+            "name": "26DansLeFroc",
+            "tag": "FRR",
+            "team": "Blue",
+            "level": 182,
+            "character": "Cypher",
+            "currenttier": 0,
+            "currenttier_patched": "Unrated",
+            "player_card": "9fb348bc-41a0-91ad-8a3e-818035c4e561",
+            "player_title": "8198f12e-4899-0f25-8319-cbad87d9097b",
+            "party_id": "8332bf25-39f0-43c3-9b0f-bcfeac5f996d",
+            "session_playtime": {
+              "minutes": 53,
+              "seconds": 3180,
+              "milliseconds": 3180000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 1
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.26200.1.768.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": null,
+              "e_cast": null,
+              "q_cast": null,
+              "c_cast": null
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 2986,
+              "kills": 12,
+              "deaths": 5,
+              "assists": 2,
+              "bodyshots": 0,
+              "headshots": 0,
+              "legshots": 0
+            },
+            "economy": {
+              "spent": {
+                "overall": 0,
+                "average": 0
+              },
+              "loadout_value": {
+                "overall": 0,
+                "average": 0
+              }
+            },
+            "damage_made": 0,
+            "damage_received": 0
+          },
+          {
+            "puuid": "391c189e-a7b5-5786-8367-74cb0e54ed9d",
+            "name": "Klappstuhl12",
+            "tag": "EUW",
+            "team": "Red",
+            "level": 222,
+            "character": "Fade",
+            "currenttier": 0,
+            "currenttier_patched": "Unrated",
+            "player_card": "1a04ca5e-43a7-d404-239b-968a327f8450",
+            "player_title": "13b4c766-4f55-11f2-cde3-adababe50c7d",
+            "party_id": "d8b25d5f-cd7a-4fee-894d-4da62c9d322f",
+            "session_playtime": {
+              "minutes": 17,
+              "seconds": 1020,
+              "milliseconds": 1020000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 0.1
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.19045.1.768.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": null,
+              "e_cast": null,
+              "q_cast": null,
+              "c_cast": null
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/1a04ca5e-43a7-d404-239b-968a327f8450/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/1a04ca5e-43a7-d404-239b-968a327f8450/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/1a04ca5e-43a7-d404-239b-968a327f8450/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 1470,
+              "kills": 5,
+              "deaths": 11,
+              "assists": 0,
+              "bodyshots": 0,
+              "headshots": 0,
+              "legshots": 0
+            },
+            "economy": {
+              "spent": {
+                "overall": 0,
+                "average": 0
+              },
+              "loadout_value": {
+                "overall": 0,
+                "average": 0
+              }
+            },
+            "damage_made": 0,
+            "damage_received": 0
+          },
+          {
+            "puuid": "c6c8bed0-975a-5109-ab59-550f6d53dd43",
+            "name": "Omar",
+            "tag": "20002",
+            "team": "Red",
+            "level": 183,
+            "character": "Phoenix",
+            "currenttier": 0,
+            "currenttier_patched": "Unrated",
+            "player_card": "6b954e8f-410f-703a-4ed0-f8ae622e8917",
+            "player_title": "0fa48078-4978-cea8-c417-13972c5f981d",
+            "party_id": "c1c226f6-fa85-4ebd-a74e-f6d5634f20be",
+            "session_playtime": {
+              "minutes": 156,
+              "seconds": 9360,
+              "milliseconds": 9360000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 0.1
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.22631.1.256.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": null,
+              "e_cast": null,
+              "q_cast": null,
+              "c_cast": null
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/6b954e8f-410f-703a-4ed0-f8ae622e8917/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/6b954e8f-410f-703a-4ed0-f8ae622e8917/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/6b954e8f-410f-703a-4ed0-f8ae622e8917/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 1542,
+              "kills": 5,
+              "deaths": 11,
+              "assists": 0,
+              "bodyshots": 0,
+              "headshots": 0,
+              "legshots": 0
+            },
+            "economy": {
+              "spent": {
+                "overall": 0,
+                "average": 0
+              },
+              "loadout_value": {
+                "overall": 0,
+                "average": 0
+              }
+            },
+            "damage_made": 0,
+            "damage_received": 0
+          }
+        ],
+        "red": [
+          {
+            "puuid": "391c189e-a7b5-5786-8367-74cb0e54ed9d",
+            "name": "Klappstuhl12",
+            "tag": "EUW",
+            "team": "Red",
+            "level": 222,
+            "character": "Fade",
+            "currenttier": 0,
+            "currenttier_patched": "Unrated",
+            "player_card": "1a04ca5e-43a7-d404-239b-968a327f8450",
+            "player_title": "13b4c766-4f55-11f2-cde3-adababe50c7d",
+            "party_id": "d8b25d5f-cd7a-4fee-894d-4da62c9d322f",
+            "session_playtime": {
+              "minutes": 17,
+              "seconds": 1020,
+              "milliseconds": 1020000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 0.1
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.19045.1.768.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": null,
+              "e_cast": null,
+              "q_cast": null,
+              "c_cast": null
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/1a04ca5e-43a7-d404-239b-968a327f8450/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/1a04ca5e-43a7-d404-239b-968a327f8450/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/1a04ca5e-43a7-d404-239b-968a327f8450/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 1470,
+              "kills": 5,
+              "deaths": 11,
+              "assists": 0,
+              "bodyshots": 0,
+              "headshots": 0,
+              "legshots": 0
+            },
+            "economy": {
+              "spent": {
+                "overall": 0,
+                "average": 0
+              },
+              "loadout_value": {
+                "overall": 0,
+                "average": 0
+              }
+            },
+            "damage_made": 0,
+            "damage_received": 0
+          },
+          {
+            "puuid": "c6c8bed0-975a-5109-ab59-550f6d53dd43",
+            "name": "Omar",
+            "tag": "20002",
+            "team": "Red",
+            "level": 183,
+            "character": "Phoenix",
+            "currenttier": 0,
+            "currenttier_patched": "Unrated",
+            "player_card": "6b954e8f-410f-703a-4ed0-f8ae622e8917",
+            "player_title": "0fa48078-4978-cea8-c417-13972c5f981d",
+            "party_id": "c1c226f6-fa85-4ebd-a74e-f6d5634f20be",
+            "session_playtime": {
+              "minutes": 156,
+              "seconds": 9360,
+              "milliseconds": 9360000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 0.1
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.22631.1.256.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": null,
+              "e_cast": null,
+              "q_cast": null,
+              "c_cast": null
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/6b954e8f-410f-703a-4ed0-f8ae622e8917/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/6b954e8f-410f-703a-4ed0-f8ae622e8917/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/6b954e8f-410f-703a-4ed0-f8ae622e8917/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 1542,
+              "kills": 5,
+              "deaths": 11,
+              "assists": 0,
+              "bodyshots": 0,
+              "headshots": 0,
+              "legshots": 0
+            },
+            "economy": {
+              "spent": {
+                "overall": 0,
+                "average": 0
+              },
+              "loadout_value": {
+                "overall": 0,
+                "average": 0
+              }
+            },
+            "damage_made": 0,
+            "damage_received": 0
+          }
+        ],
+        "blue": [
+          {
+            "puuid": "ab8ff27b-b10b-5a72-b3b0-f2fc980e08f7",
+            "name": "38DansLeCalbar",
+            "tag": "FRR",
+            "team": "Blue",
+            "level": 45,
+            "character": "Sova",
+            "currenttier": 0,
+            "currenttier_patched": "Unrated",
+            "player_card": "9fb348bc-41a0-91ad-8a3e-818035c4e561",
+            "player_title": "8198f12e-4899-0f25-8319-cbad87d9097b",
+            "party_id": "8332bf25-39f0-43c3-9b0f-bcfeac5f996d",
+            "session_playtime": {
+              "minutes": 52,
+              "seconds": 3120,
+              "milliseconds": 3120000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 1
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.26200.1.768.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": null,
+              "e_cast": null,
+              "q_cast": null,
+              "c_cast": null
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 2198,
+              "kills": 10,
+              "deaths": 5,
+              "assists": 1,
+              "bodyshots": 0,
+              "headshots": 0,
+              "legshots": 0
+            },
+            "economy": {
+              "spent": {
+                "overall": 0,
+                "average": 0
+              },
+              "loadout_value": {
+                "overall": 0,
+                "average": 0
+              }
+            },
+            "damage_made": 0,
+            "damage_received": 0
+          },
+          {
+            "puuid": "01f58609-044d-51f2-bda0-040974d0f58a",
+            "name": "26DansLeFroc",
+            "tag": "FRR",
+            "team": "Blue",
+            "level": 182,
+            "character": "Cypher",
+            "currenttier": 0,
+            "currenttier_patched": "Unrated",
+            "player_card": "9fb348bc-41a0-91ad-8a3e-818035c4e561",
+            "player_title": "8198f12e-4899-0f25-8319-cbad87d9097b",
+            "party_id": "8332bf25-39f0-43c3-9b0f-bcfeac5f996d",
+            "session_playtime": {
+              "minutes": 53,
+              "seconds": 3180,
+              "milliseconds": 3180000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 1
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.26200.1.768.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": null,
+              "e_cast": null,
+              "q_cast": null,
+              "c_cast": null
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 2986,
+              "kills": 12,
+              "deaths": 5,
+              "assists": 2,
+              "bodyshots": 0,
+              "headshots": 0,
+              "legshots": 0
+            },
+            "economy": {
+              "spent": {
+                "overall": 0,
+                "average": 0
+              },
+              "loadout_value": {
+                "overall": 0,
+                "average": 0
+              }
+            },
+            "damage_made": 0,
+            "damage_received": 0
+          }
+        ]
+      },
+      "stats": null
+    },
+    {
+      "matchId": "edf0c956-6ca6-4900-8877-127070df1d19",
+      "startedAt": "Monday, March 09, 2026 10:34 PM",
+      "map": "Skirmish C",
+      "mode": "Custom Game",
+      "queue": "Skirmish",
+      "won": true,
+      "teams": {
+        "red": {
+          "has_won": true,
+          "rounds_won": 10,
+          "rounds_lost": 9,
+          "roster": null
+        },
+        "blue": {
+          "has_won": false,
+          "rounds_won": 9,
+          "rounds_lost": 10,
+          "roster": null
+        }
+      },
+      "players": {
+        "all_players": [
+          {
+            "puuid": "4e7aa7db-3cb2-56b8-a3a7-a45c6fe2a5a1",
+            "name": "LoKKi",
+            "tag": "0108",
+            "team": "Red",
+            "level": 181,
+            "character": "Iso",
+            "currenttier": 0,
+            "currenttier_patched": "Unrated",
+            "player_card": "1f413062-4824-817f-d0c1-839a41f72108",
+            "player_title": "3d9cda2b-4b2b-11c4-aa34-679987682f16",
+            "party_id": "cc1e346b-bb9b-4b26-9e35-50eff1fbdb97",
+            "session_playtime": {
+              "minutes": 98,
+              "seconds": 5880,
+              "milliseconds": 5880000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 1
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.26200.1.256.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": null,
+              "e_cast": null,
+              "q_cast": null,
+              "c_cast": null
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/1f413062-4824-817f-d0c1-839a41f72108/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/1f413062-4824-817f-d0c1-839a41f72108/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/1f413062-4824-817f-d0c1-839a41f72108/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 3619,
+              "kills": 13,
+              "deaths": 11,
+              "assists": 3,
+              "bodyshots": 0,
+              "headshots": 0,
+              "legshots": 0
+            },
+            "economy": {
+              "spent": {
+                "overall": 0,
+                "average": 0
+              },
+              "loadout_value": {
+                "overall": 0,
+                "average": 0
+              }
+            },
+            "damage_made": 0,
+            "damage_received": 0
+          },
+          {
+            "puuid": "3c021098-9399-56c6-bbf1-ec1476cf4bf2",
+            "name": "AnArchyWibZ",
+            "tag": "40001",
+            "team": "Red",
+            "level": 27,
+            "character": "Waylay",
+            "currenttier": 0,
+            "currenttier_patched": "Unrated",
+            "player_card": "af33fc06-4d7a-4a57-1ae5-b2b046c499ab",
+            "player_title": "ed96f7bd-4eed-de28-8c93-40bd313a3157",
+            "party_id": "cc1e346b-bb9b-4b26-9e35-50eff1fbdb97",
+            "session_playtime": {
+              "minutes": 117,
+              "seconds": 7020,
+              "milliseconds": 7020000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 1
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.26200.1.768.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": null,
+              "e_cast": null,
+              "q_cast": null,
+              "c_cast": null
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/af33fc06-4d7a-4a57-1ae5-b2b046c499ab/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/af33fc06-4d7a-4a57-1ae5-b2b046c499ab/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/af33fc06-4d7a-4a57-1ae5-b2b046c499ab/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 1706,
+              "kills": 7,
+              "deaths": 11,
+              "assists": 2,
+              "bodyshots": 0,
+              "headshots": 0,
+              "legshots": 0
+            },
+            "economy": {
+              "spent": {
+                "overall": 0,
+                "average": 0
+              },
+              "loadout_value": {
+                "overall": 0,
+                "average": 0
+              }
+            },
+            "damage_made": 0,
+            "damage_received": 0
+          },
+          {
+            "puuid": "ab8ff27b-b10b-5a72-b3b0-f2fc980e08f7",
+            "name": "38DansLeCalbar",
+            "tag": "FRR",
+            "team": "Blue",
+            "level": 45,
+            "character": "Omen",
+            "currenttier": 0,
+            "currenttier_patched": "Unrated",
+            "player_card": "9fb348bc-41a0-91ad-8a3e-818035c4e561",
+            "player_title": "8198f12e-4899-0f25-8319-cbad87d9097b",
+            "party_id": "8332bf25-39f0-43c3-9b0f-bcfeac5f996d",
+            "session_playtime": {
+              "minutes": 45,
+              "seconds": 2700,
+              "milliseconds": 2700000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 1
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.26200.1.768.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": null,
+              "e_cast": null,
+              "q_cast": null,
+              "c_cast": null
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 2512,
+              "kills": 10,
+              "deaths": 10,
+              "assists": 1,
+              "bodyshots": 0,
+              "headshots": 0,
+              "legshots": 0
+            },
+            "economy": {
+              "spent": {
+                "overall": 0,
+                "average": 0
+              },
+              "loadout_value": {
+                "overall": 0,
+                "average": 0
+              }
+            },
+            "damage_made": 0,
+            "damage_received": 0
+          },
+          {
+            "puuid": "01f58609-044d-51f2-bda0-040974d0f58a",
+            "name": "26DansLeFroc",
+            "tag": "FRR",
+            "team": "Blue",
+            "level": 182,
+            "character": "Viper",
+            "currenttier": 0,
+            "currenttier_patched": "Unrated",
+            "player_card": "9fb348bc-41a0-91ad-8a3e-818035c4e561",
+            "player_title": "8198f12e-4899-0f25-8319-cbad87d9097b",
+            "party_id": "8332bf25-39f0-43c3-9b0f-bcfeac5f996d",
+            "session_playtime": {
+              "minutes": 46,
+              "seconds": 2760,
+              "milliseconds": 2760000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 1
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.26200.1.768.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": null,
+              "e_cast": null,
+              "q_cast": null,
+              "c_cast": null
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 3288,
+              "kills": 12,
+              "deaths": 10,
+              "assists": 0,
+              "bodyshots": 0,
+              "headshots": 0,
+              "legshots": 0
+            },
+            "economy": {
+              "spent": {
+                "overall": 0,
+                "average": 0
+              },
+              "loadout_value": {
+                "overall": 0,
+                "average": 0
+              }
+            },
+            "damage_made": 0,
+            "damage_received": 0
+          }
+        ],
+        "red": [
+          {
+            "puuid": "4e7aa7db-3cb2-56b8-a3a7-a45c6fe2a5a1",
+            "name": "LoKKi",
+            "tag": "0108",
+            "team": "Red",
+            "level": 181,
+            "character": "Iso",
+            "currenttier": 0,
+            "currenttier_patched": "Unrated",
+            "player_card": "1f413062-4824-817f-d0c1-839a41f72108",
+            "player_title": "3d9cda2b-4b2b-11c4-aa34-679987682f16",
+            "party_id": "cc1e346b-bb9b-4b26-9e35-50eff1fbdb97",
+            "session_playtime": {
+              "minutes": 98,
+              "seconds": 5880,
+              "milliseconds": 5880000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 1
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.26200.1.256.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": null,
+              "e_cast": null,
+              "q_cast": null,
+              "c_cast": null
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/1f413062-4824-817f-d0c1-839a41f72108/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/1f413062-4824-817f-d0c1-839a41f72108/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/1f413062-4824-817f-d0c1-839a41f72108/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 3619,
+              "kills": 13,
+              "deaths": 11,
+              "assists": 3,
+              "bodyshots": 0,
+              "headshots": 0,
+              "legshots": 0
+            },
+            "economy": {
+              "spent": {
+                "overall": 0,
+                "average": 0
+              },
+              "loadout_value": {
+                "overall": 0,
+                "average": 0
+              }
+            },
+            "damage_made": 0,
+            "damage_received": 0
+          },
+          {
+            "puuid": "3c021098-9399-56c6-bbf1-ec1476cf4bf2",
+            "name": "AnArchyWibZ",
+            "tag": "40001",
+            "team": "Red",
+            "level": 27,
+            "character": "Waylay",
+            "currenttier": 0,
+            "currenttier_patched": "Unrated",
+            "player_card": "af33fc06-4d7a-4a57-1ae5-b2b046c499ab",
+            "player_title": "ed96f7bd-4eed-de28-8c93-40bd313a3157",
+            "party_id": "cc1e346b-bb9b-4b26-9e35-50eff1fbdb97",
+            "session_playtime": {
+              "minutes": 117,
+              "seconds": 7020,
+              "milliseconds": 7020000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 1
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.26200.1.768.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": null,
+              "e_cast": null,
+              "q_cast": null,
+              "c_cast": null
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/af33fc06-4d7a-4a57-1ae5-b2b046c499ab/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/af33fc06-4d7a-4a57-1ae5-b2b046c499ab/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/af33fc06-4d7a-4a57-1ae5-b2b046c499ab/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 1706,
+              "kills": 7,
+              "deaths": 11,
+              "assists": 2,
+              "bodyshots": 0,
+              "headshots": 0,
+              "legshots": 0
+            },
+            "economy": {
+              "spent": {
+                "overall": 0,
+                "average": 0
+              },
+              "loadout_value": {
+                "overall": 0,
+                "average": 0
+              }
+            },
+            "damage_made": 0,
+            "damage_received": 0
+          }
+        ],
+        "blue": [
+          {
+            "puuid": "ab8ff27b-b10b-5a72-b3b0-f2fc980e08f7",
+            "name": "38DansLeCalbar",
+            "tag": "FRR",
+            "team": "Blue",
+            "level": 45,
+            "character": "Omen",
+            "currenttier": 0,
+            "currenttier_patched": "Unrated",
+            "player_card": "9fb348bc-41a0-91ad-8a3e-818035c4e561",
+            "player_title": "8198f12e-4899-0f25-8319-cbad87d9097b",
+            "party_id": "8332bf25-39f0-43c3-9b0f-bcfeac5f996d",
+            "session_playtime": {
+              "minutes": 45,
+              "seconds": 2700,
+              "milliseconds": 2700000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 1
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.26200.1.768.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": null,
+              "e_cast": null,
+              "q_cast": null,
+              "c_cast": null
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 2512,
+              "kills": 10,
+              "deaths": 10,
+              "assists": 1,
+              "bodyshots": 0,
+              "headshots": 0,
+              "legshots": 0
+            },
+            "economy": {
+              "spent": {
+                "overall": 0,
+                "average": 0
+              },
+              "loadout_value": {
+                "overall": 0,
+                "average": 0
+              }
+            },
+            "damage_made": 0,
+            "damage_received": 0
+          },
+          {
+            "puuid": "01f58609-044d-51f2-bda0-040974d0f58a",
+            "name": "26DansLeFroc",
+            "tag": "FRR",
+            "team": "Blue",
+            "level": 182,
+            "character": "Viper",
+            "currenttier": 0,
+            "currenttier_patched": "Unrated",
+            "player_card": "9fb348bc-41a0-91ad-8a3e-818035c4e561",
+            "player_title": "8198f12e-4899-0f25-8319-cbad87d9097b",
+            "party_id": "8332bf25-39f0-43c3-9b0f-bcfeac5f996d",
+            "session_playtime": {
+              "minutes": 46,
+              "seconds": 2760,
+              "milliseconds": 2760000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 1
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.26200.1.768.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": null,
+              "e_cast": null,
+              "q_cast": null,
+              "c_cast": null
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 3288,
+              "kills": 12,
+              "deaths": 10,
+              "assists": 0,
+              "bodyshots": 0,
+              "headshots": 0,
+              "legshots": 0
+            },
+            "economy": {
+              "spent": {
+                "overall": 0,
+                "average": 0
+              },
+              "loadout_value": {
+                "overall": 0,
+                "average": 0
+              }
+            },
+            "damage_made": 0,
+            "damage_received": 0
+          }
+        ]
+      },
+      "stats": null
+    },
+    {
+      "matchId": "663a4cc4-6827-487e-9a13-2cc889ee0cc4",
+      "startedAt": "Monday, March 09, 2026 10:02 PM",
+      "map": "Corrode",
+      "mode": "Competitive",
+      "queue": "Standard",
+      "won": true,
+      "teams": {
+        "red": {
+          "has_won": true,
+          "rounds_won": 13,
+          "rounds_lost": 4,
+          "roster": null
+        },
+        "blue": {
+          "has_won": false,
+          "rounds_won": 4,
+          "rounds_lost": 13,
+          "roster": null
+        }
+      },
+      "players": {
+        "all_players": [
+          {
+            "puuid": "01f58609-044d-51f2-bda0-040974d0f58a",
+            "name": "26DansLeFroc",
+            "tag": "FRR",
+            "team": "Blue",
+            "level": 182,
+            "character": "Cypher",
+            "currenttier": 15,
+            "currenttier_patched": "Platinum 1",
+            "player_card": "9fb348bc-41a0-91ad-8a3e-818035c4e561",
+            "player_title": "8198f12e-4899-0f25-8319-cbad87d9097b",
+            "party_id": "8332bf25-39f0-43c3-9b0f-bcfeac5f996d",
+            "session_playtime": {
+              "minutes": 14,
+              "seconds": 840,
+              "milliseconds": 840000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 0
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.26200.1.768.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": 3,
+              "e_cast": 11,
+              "q_cast": 18,
+              "c_cast": 19
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 4823,
+              "kills": 15,
+              "deaths": 14,
+              "assists": 2,
+              "bodyshots": 18,
+              "headshots": 14,
+              "legshots": 0
+            },
+            "economy": {
+              "spent": {
+                "overall": 39900,
+                "average": 2347.0588
+              },
+              "loadout_value": {
+                "overall": 45100,
+                "average": 2652.9412
+              }
+            },
+            "damage_made": 2959,
+            "damage_received": 2599
+          },
+          {
+            "puuid": "d7b0d37c-2a7c-565e-b1c2-8fc664205b3e",
+            "name": "NC Schokomilch",
+            "tag": "5680",
+            "team": "Red",
+            "level": 260,
+            "character": "Iso",
+            "currenttier": 13,
+            "currenttier_patched": "Gold 2",
+            "player_card": "1ce0823c-4399-abdc-8230-ff82727e13ff",
+            "player_title": "6b4e1d0c-410e-878b-f151-9b8a8abc83a3",
+            "party_id": "6c36e2b6-8f6c-4058-9a5a-7e4419492c09",
+            "session_playtime": {
+              "minutes": 113,
+              "seconds": 6780,
+              "milliseconds": 6780000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 0
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.26200.1.768.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": 4,
+              "e_cast": 16,
+              "q_cast": 12,
+              "c_cast": 3
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/1ce0823c-4399-abdc-8230-ff82727e13ff/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/1ce0823c-4399-abdc-8230-ff82727e13ff/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/1ce0823c-4399-abdc-8230-ff82727e13ff/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 4784,
+              "kills": 18,
+              "deaths": 11,
+              "assists": 8,
+              "bodyshots": 35,
+              "headshots": 15,
+              "legshots": 1
+            },
+            "economy": {
+              "spent": {
+                "overall": 45500,
+                "average": 2676.4707
+              },
+              "loadout_value": {
+                "overall": 62200,
+                "average": 3658.8235
+              }
+            },
+            "damage_made": 2974,
+            "damage_received": 2099
+          },
+          {
+            "puuid": "d08810f2-fbe0-573a-9401-7fc8029c37b7",
+            "name": "KeeqaidOnTop",
+            "tag": "VVVVV",
+            "team": "Red",
+            "level": 295,
+            "character": "Fade",
+            "currenttier": 13,
+            "currenttier_patched": "Gold 2",
+            "player_card": "1711d20d-4b1c-c64a-14be-d4ae58a457c6",
+            "player_title": "8198f12e-4899-0f25-8319-cbad87d9097b",
+            "party_id": "cba066ea-11c9-4b9a-817d-ce0ff82ea4c6",
+            "session_playtime": {
+              "minutes": 41,
+              "seconds": 2460,
+              "milliseconds": 2460000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 0
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.26200.1.768.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": 1,
+              "e_cast": 14,
+              "q_cast": 4,
+              "c_cast": 18
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/1711d20d-4b1c-c64a-14be-d4ae58a457c6/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/1711d20d-4b1c-c64a-14be-d4ae58a457c6/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/1711d20d-4b1c-c64a-14be-d4ae58a457c6/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 4837,
+              "kills": 20,
+              "deaths": 11,
+              "assists": 4,
+              "bodyshots": 38,
+              "headshots": 14,
+              "legshots": 0
+            },
+            "economy": {
+              "spent": {
+                "overall": 48650,
+                "average": 2861.7646
+              },
+              "loadout_value": {
+                "overall": 65600,
+                "average": 3858.8235
+              }
+            },
+            "damage_made": 2797,
+            "damage_received": 2387
+          },
+          {
+            "puuid": "e8603c19-88d4-5017-b728-67c5dc68510b",
+            "name": "NC Skywalker",
+            "tag": "1382",
+            "team": "Red",
+            "level": 82,
+            "character": "Chamber",
+            "currenttier": 11,
+            "currenttier_patched": "Silver 3",
+            "player_card": "612cd02d-4294-ee2a-644c-a3ba3ddf8805",
+            "player_title": "8198f12e-4899-0f25-8319-cbad87d9097b",
+            "party_id": "6c36e2b6-8f6c-4058-9a5a-7e4419492c09",
+            "session_playtime": {
+              "minutes": 113,
+              "seconds": 6780,
+              "milliseconds": 6780000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 0
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.26200.1.256.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": 1,
+              "e_cast": 4,
+              "q_cast": 2,
+              "c_cast": 15
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/612cd02d-4294-ee2a-644c-a3ba3ddf8805/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/612cd02d-4294-ee2a-644c-a3ba3ddf8805/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/612cd02d-4294-ee2a-644c-a3ba3ddf8805/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 2201,
+              "kills": 8,
+              "deaths": 11,
+              "assists": 2,
+              "bodyshots": 16,
+              "headshots": 4,
+              "legshots": 2
+            },
+            "economy": {
+              "spent": {
+                "overall": 42900,
+                "average": 2523.5293
+              },
+              "loadout_value": {
+                "overall": 64300,
+                "average": 3782.353
+              }
+            },
+            "damage_made": 1445,
+            "damage_received": 2112
+          },
+          {
+            "puuid": "7690389b-63e7-5d1c-a9b6-e16255d4d1dd",
+            "name": "Man with Candy",
+            "tag": "0203",
+            "team": "Red",
+            "level": 43,
+            "character": "Phoenix",
+            "currenttier": 14,
+            "currenttier_patched": "Gold 3",
+            "player_card": "ec50c37c-455a-ae63-353f-c399f36e55d6",
+            "player_title": "eafed084-4c7e-5c83-9331-1397ae5dc2d4",
+            "party_id": "6c36e2b6-8f6c-4058-9a5a-7e4419492c09",
+            "session_playtime": {
+              "minutes": 44,
+              "seconds": 2640,
+              "milliseconds": 2640000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 0
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.26200.1.256.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": 4,
+              "e_cast": 17,
+              "q_cast": 5,
+              "c_cast": 7
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/ec50c37c-455a-ae63-353f-c399f36e55d6/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/ec50c37c-455a-ae63-353f-c399f36e55d6/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/ec50c37c-455a-ae63-353f-c399f36e55d6/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 3875,
+              "kills": 14,
+              "deaths": 12,
+              "assists": 6,
+              "bodyshots": 26,
+              "headshots": 14,
+              "legshots": 3
+            },
+            "economy": {
+              "spent": {
+                "overall": 45750,
+                "average": 2691.1765
+              },
+              "loadout_value": {
+                "overall": 68950,
+                "average": 4055.8823
+              }
+            },
+            "damage_made": 2919,
+            "damage_received": 2731
+          },
+          {
+            "puuid": "b81cc10b-b434-5064-b161-e95edf9f4f4f",
+            "name": "Kookie",
+            "tag": "Latae",
+            "team": "Red",
+            "level": 317,
+            "character": "Clove",
+            "currenttier": 10,
+            "currenttier_patched": "Silver 2",
+            "player_card": "33f3c143-4da0-b595-5f70-faa2ab7eba3e",
+            "player_title": "f286dd70-42eb-57ba-9711-e2b56db08448",
+            "party_id": "e06c6e26-cd94-40e1-97f3-6695d220c503",
+            "session_playtime": {
+              "minutes": 47,
+              "seconds": 2820,
+              "milliseconds": 2820000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 0
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.26200.1.768.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": 3,
+              "e_cast": 36,
+              "q_cast": 0,
+              "c_cast": 7
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/33f3c143-4da0-b595-5f70-faa2ab7eba3e/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/33f3c143-4da0-b595-5f70-faa2ab7eba3e/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/33f3c143-4da0-b595-5f70-faa2ab7eba3e/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 5468,
+              "kills": 18,
+              "deaths": 13,
+              "assists": 6,
+              "bodyshots": 57,
+              "headshots": 9,
+              "legshots": 4
+            },
+            "economy": {
+              "spent": {
+                "overall": 37550,
+                "average": 2208.8235
+              },
+              "loadout_value": {
+                "overall": 65300,
+                "average": 3841.1765
+              }
+            },
+            "damage_made": 3879,
+            "damage_received": 2175
+          },
+          {
+            "puuid": "ab8ff27b-b10b-5a72-b3b0-f2fc980e08f7",
+            "name": "38DansLeCalbar",
+            "tag": "FRR",
+            "team": "Blue",
+            "level": 45,
+            "character": "Tejo",
+            "currenttier": 14,
+            "currenttier_patched": "Gold 3",
+            "player_card": "9fb348bc-41a0-91ad-8a3e-818035c4e561",
+            "player_title": "8198f12e-4899-0f25-8319-cbad87d9097b",
+            "party_id": "8332bf25-39f0-43c3-9b0f-bcfeac5f996d",
+            "session_playtime": {
+              "minutes": 13,
+              "seconds": 780,
+              "milliseconds": 780000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 0
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.26200.1.768.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": 1,
+              "e_cast": 8,
+              "q_cast": 1,
+              "c_cast": 6
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 1861,
+              "kills": 5,
+              "deaths": 17,
+              "assists": 3,
+              "bodyshots": 23,
+              "headshots": 4,
+              "legshots": 1
+            },
+            "economy": {
+              "spent": {
+                "overall": 42250,
+                "average": 2485.2942
+              },
+              "loadout_value": {
+                "overall": 51350,
+                "average": 3020.5881
+              }
+            },
+            "damage_made": 1401,
+            "damage_received": 2661
+          },
+          {
+            "puuid": "07b9ce44-efd9-53af-a13f-96167688c286",
+            "name": "EmpressOG",
+            "tag": "1205",
+            "team": "Blue",
+            "level": 159,
+            "character": "Reyna",
+            "currenttier": 11,
+            "currenttier_patched": "Silver 3",
+            "player_card": "4ca63988-4ca6-2911-a1b5-98a4b765dffd",
+            "player_title": "86bd997d-4e37-18c9-ada0-bf92e54baf60",
+            "party_id": "b4830a34-074a-4932-bfcf-9818f1411a9a",
+            "session_playtime": {
+              "minutes": 4,
+              "seconds": 240,
+              "milliseconds": 240000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 0
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.26200.1.768.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": 1,
+              "e_cast": 3,
+              "q_cast": 2,
+              "c_cast": 6
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/4ca63988-4ca6-2911-a1b5-98a4b765dffd/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/4ca63988-4ca6-2911-a1b5-98a4b765dffd/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/4ca63988-4ca6-2911-a1b5-98a4b765dffd/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 2732,
+              "kills": 10,
+              "deaths": 15,
+              "assists": 2,
+              "bodyshots": 59,
+              "headshots": 13,
+              "legshots": 9
+            },
+            "economy": {
+              "spent": {
+                "overall": 40400,
+                "average": 2376.4707
+              },
+              "loadout_value": {
+                "overall": 52650,
+                "average": 3097.0588
+              }
+            },
+            "damage_made": 1770,
+            "damage_received": 2764
+          },
+          {
+            "puuid": "a4605779-9da7-52ce-8726-7724c0f60def",
+            "name": "Heavyhearted Bob",
+            "tag": "6969",
+            "team": "Blue",
+            "level": 127,
+            "character": "Brimstone",
+            "currenttier": 11,
+            "currenttier_patched": "Silver 3",
+            "player_card": "4714babb-415b-a9d6-f63d-9ea5b9c74601",
+            "player_title": "6b4e1d0c-410e-878b-f151-9b8a8abc83a3",
+            "party_id": "b4830a34-074a-4932-bfcf-9818f1411a9a",
+            "session_playtime": {
+              "minutes": 5,
+              "seconds": 300,
+              "milliseconds": 300000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 0
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.26200.1.256.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": 1,
+              "e_cast": 12,
+              "q_cast": 0,
+              "c_cast": 0
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/4714babb-415b-a9d6-f63d-9ea5b9c74601/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/4714babb-415b-a9d6-f63d-9ea5b9c74601/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/4714babb-415b-a9d6-f63d-9ea5b9c74601/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 4241,
+              "kills": 14,
+              "deaths": 17,
+              "assists": 5,
+              "bodyshots": 89,
+              "headshots": 13,
+              "legshots": 7
+            },
+            "economy": {
+              "spent": {
+                "overall": 43250,
+                "average": 2544.1177
+              },
+              "loadout_value": {
+                "overall": 47150,
+                "average": 2773.5293
+              }
+            },
+            "damage_made": 2330,
+            "damage_received": 2980
+          },
+          {
+            "puuid": "b9dded5c-395e-5226-80e9-dfed09e07d38",
+            "name": "andola00",
+            "tag": "12345",
+            "team": "Blue",
+            "level": 124,
+            "character": "Sova",
+            "currenttier": 8,
+            "currenttier_patched": "Bronze 3",
+            "player_card": "7d7f15c5-46f5-58ea-b1d5-bba31c60d5d0",
+            "player_title": "8198f12e-4899-0f25-8319-cbad87d9097b",
+            "party_id": "b4830a34-074a-4932-bfcf-9818f1411a9a",
+            "session_playtime": {
+              "minutes": 2,
+              "seconds": 120,
+              "milliseconds": 120000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 0
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.26200.1.768.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": 2,
+              "e_cast": 14,
+              "q_cast": 18,
+              "c_cast": 5
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/7d7f15c5-46f5-58ea-b1d5-bba31c60d5d0/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/7d7f15c5-46f5-58ea-b1d5-bba31c60d5d0/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/7d7f15c5-46f5-58ea-b1d5-bba31c60d5d0/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 3952,
+              "kills": 12,
+              "deaths": 15,
+              "assists": 5,
+              "bodyshots": 37,
+              "headshots": 10,
+              "legshots": 4
+            },
+            "economy": {
+              "spent": {
+                "overall": 43450,
+                "average": 2555.8823
+              },
+              "loadout_value": {
+                "overall": 50500,
+                "average": 2970.5881
+              }
+            },
+            "damage_made": 2842,
+            "damage_received": 2808
+          }
+        ],
+        "red": [
+          {
+            "puuid": "d7b0d37c-2a7c-565e-b1c2-8fc664205b3e",
+            "name": "NC Schokomilch",
+            "tag": "5680",
+            "team": "Red",
+            "level": 260,
+            "character": "Iso",
+            "currenttier": 13,
+            "currenttier_patched": "Gold 2",
+            "player_card": "1ce0823c-4399-abdc-8230-ff82727e13ff",
+            "player_title": "6b4e1d0c-410e-878b-f151-9b8a8abc83a3",
+            "party_id": "6c36e2b6-8f6c-4058-9a5a-7e4419492c09",
+            "session_playtime": {
+              "minutes": 113,
+              "seconds": 6780,
+              "milliseconds": 6780000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 0
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.26200.1.768.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": 4,
+              "e_cast": 16,
+              "q_cast": 12,
+              "c_cast": 3
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/1ce0823c-4399-abdc-8230-ff82727e13ff/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/1ce0823c-4399-abdc-8230-ff82727e13ff/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/1ce0823c-4399-abdc-8230-ff82727e13ff/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 4784,
+              "kills": 18,
+              "deaths": 11,
+              "assists": 8,
+              "bodyshots": 35,
+              "headshots": 15,
+              "legshots": 1
+            },
+            "economy": {
+              "spent": {
+                "overall": 45500,
+                "average": 2676.4707
+              },
+              "loadout_value": {
+                "overall": 62200,
+                "average": 3658.8235
+              }
+            },
+            "damage_made": 2974,
+            "damage_received": 2099
+          },
+          {
+            "puuid": "d08810f2-fbe0-573a-9401-7fc8029c37b7",
+            "name": "KeeqaidOnTop",
+            "tag": "VVVVV",
+            "team": "Red",
+            "level": 295,
+            "character": "Fade",
+            "currenttier": 13,
+            "currenttier_patched": "Gold 2",
+            "player_card": "1711d20d-4b1c-c64a-14be-d4ae58a457c6",
+            "player_title": "8198f12e-4899-0f25-8319-cbad87d9097b",
+            "party_id": "cba066ea-11c9-4b9a-817d-ce0ff82ea4c6",
+            "session_playtime": {
+              "minutes": 41,
+              "seconds": 2460,
+              "milliseconds": 2460000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 0
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.26200.1.768.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": 1,
+              "e_cast": 14,
+              "q_cast": 4,
+              "c_cast": 18
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/1711d20d-4b1c-c64a-14be-d4ae58a457c6/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/1711d20d-4b1c-c64a-14be-d4ae58a457c6/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/1711d20d-4b1c-c64a-14be-d4ae58a457c6/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 4837,
+              "kills": 20,
+              "deaths": 11,
+              "assists": 4,
+              "bodyshots": 38,
+              "headshots": 14,
+              "legshots": 0
+            },
+            "economy": {
+              "spent": {
+                "overall": 48650,
+                "average": 2861.7646
+              },
+              "loadout_value": {
+                "overall": 65600,
+                "average": 3858.8235
+              }
+            },
+            "damage_made": 2797,
+            "damage_received": 2387
+          },
+          {
+            "puuid": "e8603c19-88d4-5017-b728-67c5dc68510b",
+            "name": "NC Skywalker",
+            "tag": "1382",
+            "team": "Red",
+            "level": 82,
+            "character": "Chamber",
+            "currenttier": 11,
+            "currenttier_patched": "Silver 3",
+            "player_card": "612cd02d-4294-ee2a-644c-a3ba3ddf8805",
+            "player_title": "8198f12e-4899-0f25-8319-cbad87d9097b",
+            "party_id": "6c36e2b6-8f6c-4058-9a5a-7e4419492c09",
+            "session_playtime": {
+              "minutes": 113,
+              "seconds": 6780,
+              "milliseconds": 6780000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 0
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.26200.1.256.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": 1,
+              "e_cast": 4,
+              "q_cast": 2,
+              "c_cast": 15
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/612cd02d-4294-ee2a-644c-a3ba3ddf8805/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/612cd02d-4294-ee2a-644c-a3ba3ddf8805/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/612cd02d-4294-ee2a-644c-a3ba3ddf8805/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 2201,
+              "kills": 8,
+              "deaths": 11,
+              "assists": 2,
+              "bodyshots": 16,
+              "headshots": 4,
+              "legshots": 2
+            },
+            "economy": {
+              "spent": {
+                "overall": 42900,
+                "average": 2523.5293
+              },
+              "loadout_value": {
+                "overall": 64300,
+                "average": 3782.353
+              }
+            },
+            "damage_made": 1445,
+            "damage_received": 2112
+          },
+          {
+            "puuid": "7690389b-63e7-5d1c-a9b6-e16255d4d1dd",
+            "name": "Man with Candy",
+            "tag": "0203",
+            "team": "Red",
+            "level": 43,
+            "character": "Phoenix",
+            "currenttier": 14,
+            "currenttier_patched": "Gold 3",
+            "player_card": "ec50c37c-455a-ae63-353f-c399f36e55d6",
+            "player_title": "eafed084-4c7e-5c83-9331-1397ae5dc2d4",
+            "party_id": "6c36e2b6-8f6c-4058-9a5a-7e4419492c09",
+            "session_playtime": {
+              "minutes": 44,
+              "seconds": 2640,
+              "milliseconds": 2640000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 0
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.26200.1.256.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": 4,
+              "e_cast": 17,
+              "q_cast": 5,
+              "c_cast": 7
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/ec50c37c-455a-ae63-353f-c399f36e55d6/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/ec50c37c-455a-ae63-353f-c399f36e55d6/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/ec50c37c-455a-ae63-353f-c399f36e55d6/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 3875,
+              "kills": 14,
+              "deaths": 12,
+              "assists": 6,
+              "bodyshots": 26,
+              "headshots": 14,
+              "legshots": 3
+            },
+            "economy": {
+              "spent": {
+                "overall": 45750,
+                "average": 2691.1765
+              },
+              "loadout_value": {
+                "overall": 68950,
+                "average": 4055.8823
+              }
+            },
+            "damage_made": 2919,
+            "damage_received": 2731
+          },
+          {
+            "puuid": "b81cc10b-b434-5064-b161-e95edf9f4f4f",
+            "name": "Kookie",
+            "tag": "Latae",
+            "team": "Red",
+            "level": 317,
+            "character": "Clove",
+            "currenttier": 10,
+            "currenttier_patched": "Silver 2",
+            "player_card": "33f3c143-4da0-b595-5f70-faa2ab7eba3e",
+            "player_title": "f286dd70-42eb-57ba-9711-e2b56db08448",
+            "party_id": "e06c6e26-cd94-40e1-97f3-6695d220c503",
+            "session_playtime": {
+              "minutes": 47,
+              "seconds": 2820,
+              "milliseconds": 2820000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 0
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.26200.1.768.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": 3,
+              "e_cast": 36,
+              "q_cast": 0,
+              "c_cast": 7
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/33f3c143-4da0-b595-5f70-faa2ab7eba3e/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/33f3c143-4da0-b595-5f70-faa2ab7eba3e/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/33f3c143-4da0-b595-5f70-faa2ab7eba3e/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 5468,
+              "kills": 18,
+              "deaths": 13,
+              "assists": 6,
+              "bodyshots": 57,
+              "headshots": 9,
+              "legshots": 4
+            },
+            "economy": {
+              "spent": {
+                "overall": 37550,
+                "average": 2208.8235
+              },
+              "loadout_value": {
+                "overall": 65300,
+                "average": 3841.1765
+              }
+            },
+            "damage_made": 3879,
+            "damage_received": 2175
+          }
+        ],
+        "blue": [
+          {
+            "puuid": "01f58609-044d-51f2-bda0-040974d0f58a",
+            "name": "26DansLeFroc",
+            "tag": "FRR",
+            "team": "Blue",
+            "level": 182,
+            "character": "Cypher",
+            "currenttier": 15,
+            "currenttier_patched": "Platinum 1",
+            "player_card": "9fb348bc-41a0-91ad-8a3e-818035c4e561",
+            "player_title": "8198f12e-4899-0f25-8319-cbad87d9097b",
+            "party_id": "8332bf25-39f0-43c3-9b0f-bcfeac5f996d",
+            "session_playtime": {
+              "minutes": 14,
+              "seconds": 840,
+              "milliseconds": 840000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 0
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.26200.1.768.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": 3,
+              "e_cast": 11,
+              "q_cast": 18,
+              "c_cast": 19
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 4823,
+              "kills": 15,
+              "deaths": 14,
+              "assists": 2,
+              "bodyshots": 18,
+              "headshots": 14,
+              "legshots": 0
+            },
+            "economy": {
+              "spent": {
+                "overall": 39900,
+                "average": 2347.0588
+              },
+              "loadout_value": {
+                "overall": 45100,
+                "average": 2652.9412
+              }
+            },
+            "damage_made": 2959,
+            "damage_received": 2599
+          },
+          {
+            "puuid": "ab8ff27b-b10b-5a72-b3b0-f2fc980e08f7",
+            "name": "38DansLeCalbar",
+            "tag": "FRR",
+            "team": "Blue",
+            "level": 45,
+            "character": "Tejo",
+            "currenttier": 14,
+            "currenttier_patched": "Gold 3",
+            "player_card": "9fb348bc-41a0-91ad-8a3e-818035c4e561",
+            "player_title": "8198f12e-4899-0f25-8319-cbad87d9097b",
+            "party_id": "8332bf25-39f0-43c3-9b0f-bcfeac5f996d",
+            "session_playtime": {
+              "minutes": 13,
+              "seconds": 780,
+              "milliseconds": 780000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 0
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.26200.1.768.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": 1,
+              "e_cast": 8,
+              "q_cast": 1,
+              "c_cast": 6
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 1861,
+              "kills": 5,
+              "deaths": 17,
+              "assists": 3,
+              "bodyshots": 23,
+              "headshots": 4,
+              "legshots": 1
+            },
+            "economy": {
+              "spent": {
+                "overall": 42250,
+                "average": 2485.2942
+              },
+              "loadout_value": {
+                "overall": 51350,
+                "average": 3020.5881
+              }
+            },
+            "damage_made": 1401,
+            "damage_received": 2661
+          },
+          {
+            "puuid": "07b9ce44-efd9-53af-a13f-96167688c286",
+            "name": "EmpressOG",
+            "tag": "1205",
+            "team": "Blue",
+            "level": 159,
+            "character": "Reyna",
+            "currenttier": 11,
+            "currenttier_patched": "Silver 3",
+            "player_card": "4ca63988-4ca6-2911-a1b5-98a4b765dffd",
+            "player_title": "86bd997d-4e37-18c9-ada0-bf92e54baf60",
+            "party_id": "b4830a34-074a-4932-bfcf-9818f1411a9a",
+            "session_playtime": {
+              "minutes": 4,
+              "seconds": 240,
+              "milliseconds": 240000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 0
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.26200.1.768.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": 1,
+              "e_cast": 3,
+              "q_cast": 2,
+              "c_cast": 6
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/4ca63988-4ca6-2911-a1b5-98a4b765dffd/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/4ca63988-4ca6-2911-a1b5-98a4b765dffd/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/4ca63988-4ca6-2911-a1b5-98a4b765dffd/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 2732,
+              "kills": 10,
+              "deaths": 15,
+              "assists": 2,
+              "bodyshots": 59,
+              "headshots": 13,
+              "legshots": 9
+            },
+            "economy": {
+              "spent": {
+                "overall": 40400,
+                "average": 2376.4707
+              },
+              "loadout_value": {
+                "overall": 52650,
+                "average": 3097.0588
+              }
+            },
+            "damage_made": 1770,
+            "damage_received": 2764
+          },
+          {
+            "puuid": "a4605779-9da7-52ce-8726-7724c0f60def",
+            "name": "Heavyhearted Bob",
+            "tag": "6969",
+            "team": "Blue",
+            "level": 127,
+            "character": "Brimstone",
+            "currenttier": 11,
+            "currenttier_patched": "Silver 3",
+            "player_card": "4714babb-415b-a9d6-f63d-9ea5b9c74601",
+            "player_title": "6b4e1d0c-410e-878b-f151-9b8a8abc83a3",
+            "party_id": "b4830a34-074a-4932-bfcf-9818f1411a9a",
+            "session_playtime": {
+              "minutes": 5,
+              "seconds": 300,
+              "milliseconds": 300000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 0
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.26200.1.256.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": 1,
+              "e_cast": 12,
+              "q_cast": 0,
+              "c_cast": 0
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/4714babb-415b-a9d6-f63d-9ea5b9c74601/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/4714babb-415b-a9d6-f63d-9ea5b9c74601/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/4714babb-415b-a9d6-f63d-9ea5b9c74601/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 4241,
+              "kills": 14,
+              "deaths": 17,
+              "assists": 5,
+              "bodyshots": 89,
+              "headshots": 13,
+              "legshots": 7
+            },
+            "economy": {
+              "spent": {
+                "overall": 43250,
+                "average": 2544.1177
+              },
+              "loadout_value": {
+                "overall": 47150,
+                "average": 2773.5293
+              }
+            },
+            "damage_made": 2330,
+            "damage_received": 2980
+          },
+          {
+            "puuid": "b9dded5c-395e-5226-80e9-dfed09e07d38",
+            "name": "andola00",
+            "tag": "12345",
+            "team": "Blue",
+            "level": 124,
+            "character": "Sova",
+            "currenttier": 8,
+            "currenttier_patched": "Bronze 3",
+            "player_card": "7d7f15c5-46f5-58ea-b1d5-bba31c60d5d0",
+            "player_title": "8198f12e-4899-0f25-8319-cbad87d9097b",
+            "party_id": "b4830a34-074a-4932-bfcf-9818f1411a9a",
+            "session_playtime": {
+              "minutes": 2,
+              "seconds": 120,
+              "milliseconds": 120000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 0
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.26200.1.768.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": 2,
+              "e_cast": 14,
+              "q_cast": 18,
+              "c_cast": 5
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/7d7f15c5-46f5-58ea-b1d5-bba31c60d5d0/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/7d7f15c5-46f5-58ea-b1d5-bba31c60d5d0/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/7d7f15c5-46f5-58ea-b1d5-bba31c60d5d0/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 3952,
+              "kills": 12,
+              "deaths": 15,
+              "assists": 5,
+              "bodyshots": 37,
+              "headshots": 10,
+              "legshots": 4
+            },
+            "economy": {
+              "spent": {
+                "overall": 43450,
+                "average": 2555.8823
+              },
+              "loadout_value": {
+                "overall": 50500,
+                "average": 2970.5881
+              }
+            },
+            "damage_made": 2842,
+            "damage_received": 2808
+          }
+        ]
+      },
+      "stats": null
+    },
+    {
+      "matchId": "4970c08b-1c8a-437e-91f2-a8f2ae8b6fce",
+      "startedAt": "Monday, March 09, 2026 09:50 PM",
+      "map": "Skirmish B",
+      "mode": "Custom Game",
+      "queue": "Skirmish",
+      "won": true,
+      "teams": {
+        "red": {
+          "has_won": true,
+          "rounds_won": 10,
+          "rounds_lost": 9,
+          "roster": null
+        },
+        "blue": {
+          "has_won": false,
+          "rounds_won": 9,
+          "rounds_lost": 10,
+          "roster": null
+        }
+      },
+      "players": {
+        "all_players": [
+          {
+            "puuid": "887ce3c8-22dc-5525-a1fd-18dab5fe1701",
+            "name": "witchkilluh",
+            "tag": "6767",
+            "team": "Blue",
+            "level": 11,
+            "character": "Phoenix",
+            "currenttier": 0,
+            "currenttier_patched": "Unrated",
+            "player_card": "9fb348bc-41a0-91ad-8a3e-818035c4e561",
+            "player_title": "d13e579c-435e-44d4-cec2-6eae5a3c5ed4",
+            "party_id": "f4a4632d-99f3-4acd-b39f-888924d2abce",
+            "session_playtime": {
+              "minutes": 22,
+              "seconds": 1320,
+              "milliseconds": 1320000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 0.5
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.26200.1.768.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": null,
+              "e_cast": null,
+              "q_cast": null,
+              "c_cast": null
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 1465,
+              "kills": 5,
+              "deaths": 15,
+              "assists": 0,
+              "bodyshots": 0,
+              "headshots": 0,
+              "legshots": 0
+            },
+            "economy": {
+              "spent": {
+                "overall": 0,
+                "average": 0
+              },
+              "loadout_value": {
+                "overall": 0,
+                "average": 0
+              }
+            },
+            "damage_made": 0,
+            "damage_received": 0
+          },
+          {
+            "puuid": "ab8ff27b-b10b-5a72-b3b0-f2fc980e08f7",
+            "name": "38DansLeCalbar",
+            "tag": "FRR",
+            "team": "Red",
+            "level": 44,
+            "character": "Omen",
+            "currenttier": 0,
+            "currenttier_patched": "Unrated",
+            "player_card": "9fb348bc-41a0-91ad-8a3e-818035c4e561",
+            "player_title": "8198f12e-4899-0f25-8319-cbad87d9097b",
+            "party_id": "8332bf25-39f0-43c3-9b0f-bcfeac5f996d",
+            "session_playtime": {
+              "minutes": 2,
+              "seconds": 120,
+              "milliseconds": 120000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 1
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.26200.1.768.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": null,
+              "e_cast": null,
+              "q_cast": null,
+              "c_cast": null
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 2778,
+              "kills": 10,
+              "deaths": 12,
+              "assists": 2,
+              "bodyshots": 0,
+              "headshots": 0,
+              "legshots": 0
+            },
+            "economy": {
+              "spent": {
+                "overall": 0,
+                "average": 0
+              },
+              "loadout_value": {
+                "overall": 0,
+                "average": 0
+              }
+            },
+            "damage_made": 0,
+            "damage_received": 0
+          },
+          {
+            "puuid": "060a8d65-6464-5e09-8e7c-03edb51fc6f1",
+            "name": "rengoku x fane",
+            "tag": "spart",
+            "team": "Blue",
+            "level": 174,
+            "character": "Killjoy",
+            "currenttier": 0,
+            "currenttier_patched": "Unrated",
+            "player_card": "bb6ae873-43ec-efb4-3ea6-93ac00a82d4e",
+            "player_title": "951af77f-4683-ba12-2557-1da1950c390b",
+            "party_id": "4af1f02c-2b67-4140-95d8-c1bad8f39236",
+            "session_playtime": {
+              "minutes": 110,
+              "seconds": 6600,
+              "milliseconds": 6600000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 1
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.26200.1.768.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": null,
+              "e_cast": null,
+              "q_cast": null,
+              "c_cast": null
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/bb6ae873-43ec-efb4-3ea6-93ac00a82d4e/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/bb6ae873-43ec-efb4-3ea6-93ac00a82d4e/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/bb6ae873-43ec-efb4-3ea6-93ac00a82d4e/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 3887,
+              "kills": 16,
+              "deaths": 11,
+              "assists": 0,
+              "bodyshots": 0,
+              "headshots": 0,
+              "legshots": 0
+            },
+            "economy": {
+              "spent": {
+                "overall": 0,
+                "average": 0
+              },
+              "loadout_value": {
+                "overall": 0,
+                "average": 0
+              }
+            },
+            "damage_made": 0,
+            "damage_received": 0
+          },
+          {
+            "puuid": "01f58609-044d-51f2-bda0-040974d0f58a",
+            "name": "26DansLeFroc",
+            "tag": "FRR",
+            "team": "Red",
+            "level": 181,
+            "character": "Waylay",
+            "currenttier": 0,
+            "currenttier_patched": "Unrated",
+            "player_card": "9fb348bc-41a0-91ad-8a3e-818035c4e561",
+            "player_title": "8198f12e-4899-0f25-8319-cbad87d9097b",
+            "party_id": "8332bf25-39f0-43c3-9b0f-bcfeac5f996d",
+            "session_playtime": {
+              "minutes": 3,
+              "seconds": 180,
+              "milliseconds": 180000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 1
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.26200.1.768.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": null,
+              "e_cast": null,
+              "q_cast": null,
+              "c_cast": null
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 3691,
+              "kills": 16,
+              "deaths": 9,
+              "assists": 1,
+              "bodyshots": 0,
+              "headshots": 0,
+              "legshots": 0
+            },
+            "economy": {
+              "spent": {
+                "overall": 0,
+                "average": 0
+              },
+              "loadout_value": {
+                "overall": 0,
+                "average": 0
+              }
+            },
+            "damage_made": 0,
+            "damage_received": 0
+          }
+        ],
+        "red": [
+          {
+            "puuid": "ab8ff27b-b10b-5a72-b3b0-f2fc980e08f7",
+            "name": "38DansLeCalbar",
+            "tag": "FRR",
+            "team": "Red",
+            "level": 44,
+            "character": "Omen",
+            "currenttier": 0,
+            "currenttier_patched": "Unrated",
+            "player_card": "9fb348bc-41a0-91ad-8a3e-818035c4e561",
+            "player_title": "8198f12e-4899-0f25-8319-cbad87d9097b",
+            "party_id": "8332bf25-39f0-43c3-9b0f-bcfeac5f996d",
+            "session_playtime": {
+              "minutes": 2,
+              "seconds": 120,
+              "milliseconds": 120000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 1
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.26200.1.768.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": null,
+              "e_cast": null,
+              "q_cast": null,
+              "c_cast": null
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 2778,
+              "kills": 10,
+              "deaths": 12,
+              "assists": 2,
+              "bodyshots": 0,
+              "headshots": 0,
+              "legshots": 0
+            },
+            "economy": {
+              "spent": {
+                "overall": 0,
+                "average": 0
+              },
+              "loadout_value": {
+                "overall": 0,
+                "average": 0
+              }
+            },
+            "damage_made": 0,
+            "damage_received": 0
+          },
+          {
+            "puuid": "01f58609-044d-51f2-bda0-040974d0f58a",
+            "name": "26DansLeFroc",
+            "tag": "FRR",
+            "team": "Red",
+            "level": 181,
+            "character": "Waylay",
+            "currenttier": 0,
+            "currenttier_patched": "Unrated",
+            "player_card": "9fb348bc-41a0-91ad-8a3e-818035c4e561",
+            "player_title": "8198f12e-4899-0f25-8319-cbad87d9097b",
+            "party_id": "8332bf25-39f0-43c3-9b0f-bcfeac5f996d",
+            "session_playtime": {
+              "minutes": 3,
+              "seconds": 180,
+              "milliseconds": 180000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 1
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.26200.1.768.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": null,
+              "e_cast": null,
+              "q_cast": null,
+              "c_cast": null
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 3691,
+              "kills": 16,
+              "deaths": 9,
+              "assists": 1,
+              "bodyshots": 0,
+              "headshots": 0,
+              "legshots": 0
+            },
+            "economy": {
+              "spent": {
+                "overall": 0,
+                "average": 0
+              },
+              "loadout_value": {
+                "overall": 0,
+                "average": 0
+              }
+            },
+            "damage_made": 0,
+            "damage_received": 0
+          }
+        ],
+        "blue": [
+          {
+            "puuid": "887ce3c8-22dc-5525-a1fd-18dab5fe1701",
+            "name": "witchkilluh",
+            "tag": "6767",
+            "team": "Blue",
+            "level": 11,
+            "character": "Phoenix",
+            "currenttier": 0,
+            "currenttier_patched": "Unrated",
+            "player_card": "9fb348bc-41a0-91ad-8a3e-818035c4e561",
+            "player_title": "d13e579c-435e-44d4-cec2-6eae5a3c5ed4",
+            "party_id": "f4a4632d-99f3-4acd-b39f-888924d2abce",
+            "session_playtime": {
+              "minutes": 22,
+              "seconds": 1320,
+              "milliseconds": 1320000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 0.5
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.26200.1.768.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": null,
+              "e_cast": null,
+              "q_cast": null,
+              "c_cast": null
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 1465,
+              "kills": 5,
+              "deaths": 15,
+              "assists": 0,
+              "bodyshots": 0,
+              "headshots": 0,
+              "legshots": 0
+            },
+            "economy": {
+              "spent": {
+                "overall": 0,
+                "average": 0
+              },
+              "loadout_value": {
+                "overall": 0,
+                "average": 0
+              }
+            },
+            "damage_made": 0,
+            "damage_received": 0
+          },
+          {
+            "puuid": "060a8d65-6464-5e09-8e7c-03edb51fc6f1",
+            "name": "rengoku x fane",
+            "tag": "spart",
+            "team": "Blue",
+            "level": 174,
+            "character": "Killjoy",
+            "currenttier": 0,
+            "currenttier_patched": "Unrated",
+            "player_card": "bb6ae873-43ec-efb4-3ea6-93ac00a82d4e",
+            "player_title": "951af77f-4683-ba12-2557-1da1950c390b",
+            "party_id": "4af1f02c-2b67-4140-95d8-c1bad8f39236",
+            "session_playtime": {
+              "minutes": 110,
+              "seconds": 6600,
+              "milliseconds": 6600000
+            },
+            "behavior": {
+              "afk_rounds": 0,
+              "friendly_fire": {
+                "incoming": 0,
+                "outgoing": 0
+              },
+              "rounds_in_spawn": 1
+            },
+            "platform": {
+              "type": "pc",
+              "os": {
+                "name": "Windows",
+                "version": "10.0.26200.1.768.64bit"
+              }
+            },
+            "ability_casts": {
+              "x_cast": null,
+              "e_cast": null,
+              "q_cast": null,
+              "c_cast": null
+            },
+            "assets": {
+              "card": {
+                "small": "https://media.valorant-api.com/playercards/bb6ae873-43ec-efb4-3ea6-93ac00a82d4e/smallart.png",
+                "large": "https://media.valorant-api.com/playercards/bb6ae873-43ec-efb4-3ea6-93ac00a82d4e/largeart.png",
+                "wide": "https://media.valorant-api.com/playercards/bb6ae873-43ec-efb4-3ea6-93ac00a82d4e/wideart.png"
+              },
+              "agent": {
+                "small": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/displayicon.png",
+                "bust": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/fullportrait.png",
+                "full": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/fullportrait.png",
+                "killfeed": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/killfeedportrait.png"
+              }
+            },
+            "stats": {
+              "score": 3887,
+              "kills": 16,
+              "deaths": 11,
+              "assists": 0,
+              "bodyshots": 0,
+              "headshots": 0,
+              "legshots": 0
+            },
+            "economy": {
+              "spent": {
+                "overall": 0,
+                "average": 0
+              },
+              "loadout_value": {
+                "overall": 0,
+                "average": 0
+              }
+            },
+            "damage_made": 0,
+            "damage_received": 0
+          }
+        ]
+      },
+      "stats": null
+    }
+  ],
+  "favorites": {
+    "agents": [
+      "Jett",
+      "Omen"
+    ],
+    "maps": [
+      "Ascent",
+      "Haven"
+    ]
+  }
+}
