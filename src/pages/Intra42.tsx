@@ -265,32 +265,19 @@ export default function Intra42Page() {
 
 
   const titles = useMemo(() => {
-    let final_titles = [];
-    let created_at = null;
+    if (!profile?.titles_users) return [];
 
-    // Oui oui baguette
-    if (!profile)
-      return final_titles;
-
-    for (const title of profile?.titles ?? []) {
-        if (!title.name) continue;
-        if (profile?.titles_users) {
-            for (const title_user of profile.titles_users) {
-                if (title_user.title?.id === title.id) {
-                    created_at = title_user.created_at ?? null;
-                    break;
-                }
-            }
-        }
-
-        final_titles.push({
-            id: title.id ?? Math.random(),
-            name: title.name.replace("%login", profile.login ?? "user"),
-            created_at: created_at
-        });
-    }
-    return final_titles;
-
+    return profile.titles_users
+      .filter((titleUser) => titleUser.title?.name)
+      .map((titleUser) => ({
+        id: titleUser.title?.id ?? crypto.randomUUID(),
+        name: (titleUser.title?.name ?? "Sans titre").replace(
+          "%login",
+          profile.login ?? "user"
+        ),
+        created_at: titleUser.created_at ?? null,
+        selected: titleUser.selected ?? false,
+      }));
   }, [profile]);
 
 
