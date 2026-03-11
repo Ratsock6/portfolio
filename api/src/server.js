@@ -11,7 +11,9 @@ import { _42Job } from "./scheduler/jobs/42api.job.js";
 
 const app = createApp();
 
-app.listen(config.port, () => {
-  console.log(`✅ Backend running on http://localhost:${config.port}`);
+const port = process.env.PORT ? parseInt(process.env.PORT, 10) : 4000;
+
+app.listen(port, () => {
+  console.log(`✅ Backend running on http://localhost:${port}`);
   startScheduler([chessJob(), f1Job(), valorantJob(), clashRoyaleJob(), dbdJob(), cocJob(), _42Job()]);
 });
