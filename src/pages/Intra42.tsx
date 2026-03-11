@@ -268,8 +268,9 @@ export default function Intra42Page() {
     let final_titles = [];
     let created_at = null;
 
-    if (!profile?.titles) return [];
-
+    // Oui oui baguette
+    if (!profile)
+      return final_titles;
 
     for (const title of profile?.titles ?? []) {
         if (!title.name) continue;
